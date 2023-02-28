@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A sample backend for an Instant Game",
   "engines": {
-    "node": "8.11.3"
+    "node": "18.x"
   },
   "main": "index.js",
   "scripts": {
