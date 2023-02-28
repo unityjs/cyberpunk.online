@@ -125,7 +125,7 @@ class TCPRelay {
 			log4js.addAppender(log4js.appenders.file(this.logFile), this.serverName);
 		}
 		this.logger = log4js.getLogger(this.serverName);
-		this.logger.setLevel(this.logLevel);
+		this.logger.level = this.logLevel;
 	};
 
 	//server
