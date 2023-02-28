@@ -141,3 +141,6 @@ var relay = new TCPRelay('wasduijk', 'aes-256-cfb', wss);
 //relay.setLogFile(server.logFile);
 relay.setLog('wsss');
 relay.bootstrap();
+
+// Export the Express API
+module.exports = app;
