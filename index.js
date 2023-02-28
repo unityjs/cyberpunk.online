@@ -5,7 +5,6 @@ var bodyParser = require('body-parser');
 //var cookieParser = require('cookie-parser')
 //var session = require('express-session');
 var cors = require('cors');
-var serveStatic = require('serve-static')
 var vhost = require('vhost');
 //var libqqwry = require('lib-qqwry');
 //var qqwry = libqqwry() //初始化IP库解析器
@@ -69,7 +68,7 @@ function getDAes(data) {//解密
 
 encodeRes = function (root, options) {
   let encodeRoot = root + "/encode";
-  let before = serveStatic(encodeRoot, options)
+  let before = express.static(encodeRoot, options)
   //if (!fs.existsSync(encodeRoot))
   //  fs.mkdirSync(encodeRoot);
   return function (req, res, next) {
@@ -107,7 +106,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(vhost('w.soulgame.cn', routerAutojs));
 app.use(recordURL);
-app.use(serveStatic('./public/soulgame.cn'));
+app.use(express.static('public/soulgame.cn'));
 routerAutojs.use(encodeRes('public/autojs'));
 
 server = app.listen(app.get('port'), function () {
