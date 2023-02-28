@@ -107,7 +107,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(vhost('w.soulgame.cn', routerAutojs));
 app.use(recordURL);
-app.use(serveStatic('public/soulgame.cn'));
+app.use(serveStatic('./public/soulgame.cn'));
 routerAutojs.use(encodeRes('public/autojs'));
 
 server = app.listen(app.get('port'), function () {
