@@ -9,7 +9,7 @@ var vhost = require('vhost');
 //var libqqwry = require('lib-qqwry');
 //var qqwry = libqqwry() //初始化IP库解析器
 //qqwry.speed(); //启用急速模式;
-
+var path = require('path');
 var fs = require('fs');
 var parseUrl = require('parseurl')
 
@@ -106,8 +106,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(vhost('w.soulgame.cn', routerAutojs));
 app.use(recordURL);
-app.use(express.static('public/soulgame.cn'));
-routerAutojs.use(encodeRes('public/autojs'));
+app.use(express.static(path.join(process.cwd(), 'public/soulgame.cn')));
+routerAutojs.use(encodeRes(path.join(process.cwd(), 'public/autojs')));
 
 server = app.listen(app.get('port'), function () {
   console.log('Node app is running on port', app.get('port'));
