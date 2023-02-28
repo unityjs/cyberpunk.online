@@ -69,8 +69,8 @@ function getDAes(data) {//解密
 encodeRes = function (root, options) {
   let encodeRoot = root + "/encode";
   let before = express.static(encodeRoot, options)
-  if (!fs.existsSync(encodeRoot))
-    fs.mkdirSync(encodeRoot);
+  //if (!fs.existsSync(encodeRoot))
+  //  fs.mkdirSync(encodeRoot);
   return function (req, res, next) {
     var path = parseUrl(req).pathname;
     var srcFile = './' + root + path;
