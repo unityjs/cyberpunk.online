@@ -1,0 +1,47 @@
+{
+    "AppVersion": {
+        "pc": 1.0,
+        "android": 1.0,
+        "ios": 1.0
+    },
+    "BundleVersion": {
+        "pc": 1.0,
+        "android": 1.0,
+        "ios": 1.0
+    },
+    "UpdateUrl": {
+        "pc": "http://www.hotniao.com/download/app/RedBirdHall.exe",
+        "android": "http://www.hotniao.com/download/app/RedBirdHall.apk",
+        "ios": "itms-services://?action=download-manifest&url=https://www.hotniao.com/download/app/RedBirdHall.plist"
+    },
+    "items": [
+        {
+            "type": "Config",
+            "version": 1
+        },
+        {
+            "type": "AudioClip",
+            "version": 1
+        },
+        {
+            "type": "Prefab",
+            "version": 1
+        },
+        {
+            "type": "Image",
+            "version": 1
+        },
+        {
+            "type": "Config",
+            "version": 1
+        },
+        {}
+    ],
+    "Fonts": {
+        "FontArray": []
+    },
+    "Localization": {
+        "LocalizationArray": []
+    },
+    "GameList": []
+}

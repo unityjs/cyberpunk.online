@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<VersionManager>
+    <AppVersion>1.0</AppVersion>
+    <BundleVersion>1.0</BundleVersion>
+    <UpdateUrl>
+        <!--PCUrl>http://www.hotniao.com/download/app/RedBirdHall.exe</PCUrl>
+        <AndroidUrl>http://www.hotniao.com/download/app/RedBirdHall.apk</AndroidUrl>
+        <IosUrl>itms-services://?action=download-manifest&url=https://www.hotniao.com/download/app/RedBirdHall.plist</IosUrl-->
+    </UpdateUrl>
+    <Config Type="Config" Version="1" WritingFinished="false"></Config>
+    <AudioClip Type="AudioClip" Version="1" WritingFinished="false"></AudioClip>
+    <Prefab Type="Prefab" Version="1" WritingFinished="false"></Prefab>
+    <Image Type="Image" Version="1" WritingFinished="false"></Image>
+    <Fonts >
+        <FontArray></FontArray>
+    </Fonts>
+    <Localization>
+        <LocalizationArray></LocalizationArray>
+    </Localization>
+    <GameList></GameList>
+</VersionManager>

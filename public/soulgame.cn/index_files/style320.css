@@ -1,0 +1,712 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+}
+.pc_show,.ipd_show,.mob_no{
+	display: none !important;
+}
+header{
+	height: 50px;
+	background-color: #202445;
+}
+.SG-nav{
+	width: 100%;
+	height: 50px;
+	padding: 0 10px;
+}
+.SG-nav>li.mob_menu{
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+.mob_menu_V{
+	width: 13px;
+	height: 11px;
+	background: url(../images/imagesMOB/menu@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.mob_menu_X{
+	width: 11px;
+	height: 11px;
+	background: url(../images/imagesMOB/close_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+/* 移动端 菜单 */
+.mob_menu-content{
+	position: fixed;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #202445;
+	z-index: 99999;
+	padding:  24px 30px 0;
+}
+.mob_menu-content a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #A9B1EF;
+	border-bottom: 1px solid #3B416F;
+}
+
+
+
+.logo{
+	width: 115px;
+	height: 20px;
+	background: url(../images/imagesMOB/logo_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	margin-left: -57px;
+}
+
+.SG-lang-warpper{
+	width: 32px;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+.SG-show{
+	line-height: 50px;
+	font-size: 12px;
+	text-align: center;
+	color: #A9B1EF;
+}
+.SG-lang{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 99999999;
+	color: #fff;
+	display: none;
+	width: 32px;
+}
+.SG-lang li,.SG-lang li a{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+.SG-lang li{
+	border-bottom: 1px solid #757575;
+}
+.SG-lang li a{
+	height: 29px;
+	color: #A9b1ef;
+	background-color: #202445;
+}
+.SG-lang li:last-child{
+	border-bottom: 0;
+}
+.SG-lang li:hover a{
+	color: #fff;
+	background-color: #70d463;
+	border-bottom: #757575 ;
+}
+.SG-lang li:active{
+	color: #202445 !important;
+}
+
+
+section{
+	margin-top: 50px;
+}
+.SG-banner{
+	width: 100%;
+	height: 300px;
+	background: url('./../images/imagesMOB/footercolorbg_mobile@2x.jpg') no-repeat center #202445;
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+}
+.SG-banner-img{
+	flex: 1;
+	width: 100%;
+	display: block;
+	padding: 0 10px;
+}
+
+.SG-card-warpper{
+	width: 100%;
+	background-color: #202445;
+}
+.SG-card{
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 15px 10px;
+}
+.SG-card li{
+	margin-bottom: 23px;
+	min-width: 300px;
+	height: 122px;
+}
+.SG-card li.height90{
+	height: 90px;
+	border-radius: 5px;
+}
+
+.SG-card li .SG-card-top1{
+	background: url(../images/imagesMOB/苏打世界bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top2{
+	background: url(../images/imagesMOB/月圆之夜bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top3{
+	background: url(../images/imagesMOB/时空旅途bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top4{
+	background: url(../images/imagesMOB/点爆僵尸bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top5{
+	background: url(../images/imagesMOB/暗影逃生bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top6{
+	background: url(../images/imagesMOB/两点之间bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top7{
+	background: url(../images/imagesMOB/无尽的守护bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top8{
+	background: url(../images/imagesMOB/像素制造者bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top9{
+	background: url(../images/imagesMOB/幸存者之光bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top10{
+	background: url(../images/imagesMOB/推推小怪兽bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top11{
+	background: url(../images/imagesMOB/我的梦餐厅bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top12{
+	background: url(../images/imagesMOB/去吧卡洛琳2bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top13{
+	background: url(../images/imagesMOB/去吧卡洛琳bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top14{
+	background: url(../images/imagesMOB/艾格猫大冒险bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top15{
+	background: url(../images/imagesMOB/拍拍卡洛琳bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top16{
+	background: url(../images/imagesMOB/暴走砖块bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top17{
+	background: url(../images/imagesMOB/边缘迷阵bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top18{
+	background: url(../images/imagesMOB/方圆之战bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top19{
+	background: url(../images/imagesMOB/魂武bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top20{
+	background: url(../images/imagesMOB/无尽的世界bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top21{
+	background: url(../images/imagesMOB/小黄鸡跳一跳bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top22{
+	background: url(../images/imagesMOB/OO弹球bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top23{
+	background: url(../images/imagesMOB/消诺克bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top24{
+	background: url(../images/imagesMOB/翻滚吧牛宝宝bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+
+.SG-card li .SG-card-top25{
+	background: url(../images/imagesMOB/蛋国志bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top26{
+	background: url(../images/imagesMOB/块猫bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+}
+.SG-card li .SG-card-top27{
+	background: url(../images/imagesMOB/天降bg_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+.SG-card-top{
+	width: 100%;
+	height: 82px;
+	position: relative;
+	border-radius: 5px 5px 0 0;
+	display: flex;
+}
+
+.SG-y1,.SG-y2,.SG-y3,.SG-y4,.SG-y5,.SG-y6,.SG-y7{
+	display: block;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-size: 100%;
+	position: absolute;
+	top: -13px;
+}
+.SG-y1{
+	right: 159px;
+}
+.SG-y2,.SG-y5{
+	right: 111px;
+}
+.SG-y3,.SG-y6{
+	right: 63px;
+}
+.SG-y4,.SG-y7{
+	right: 15px;
+}
+
+.SG-card-top img.icon{
+	display: block;
+	float: left;
+	margin: 22px 13px 0 10px;
+	width: 50px;
+	height: 50px;
+}
+.SG-card-top div{
+	flex: 1;
+	padding: 30px 10px 0 0;
+}
+div.SG-card-title-VIP div{
+	padding-right: 100px;
+	position: relative;
+}
+
+.SG-good{
+	position: absolute;
+	top: 40px;
+	right: 8px;
+	width: 90px;
+	height: 30px;
+}
+.SG-card-top div p:nth-child(1){
+	margin-bottom: 6px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+}
+#yueyuanzhiye{
+	margin-bottom: 6px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+}
+.SG-card-top div p:nth-child(2){
+	line-height: 12px;
+	font-size: 10px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+	white-space: pre-wrap;
+}
+
+#aigemao2,#yueyuanzhiye2{
+	line-height: 12px;
+	font-size: 10px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+	white-space: pre-wrap;
+}
+.SG-card-top div.SG-card-title-color p:nth-child(1){
+	color: #383024;
+	text-shadow: 0 0px 0px rgba(0,0,0,0);
+	font-weight: 500;
+}
+.SG-card-top div.SG-card-title-color p:nth-child(2){
+	color: #3D3027;
+	text-shadow: 0 0px 0px rgba(0,0,0,00);
+	font-weight: 500;
+}
+.SG-card-bottom {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0 0 5px 5px;
+	background-color: #000;
+}
+.SG-card-bottom a{
+	float: left;
+	width: 92px;
+	height: 23px;
+}
+
+.SG-card-bottom a img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.SG-how-warpper{
+	width: 100%;
+	background: #D1F2F9;
+	padding: 25px 0 13px;
+}
+.SG-how-warpper .title{
+	line-height: 16px;
+	font-size: 16px;
+	color: #4A4A4A;
+	text-align: center;
+	font-weight: 500;
+}
+.SG-how-warpper .sub{
+	padding: 5px 0;
+	margin: 8px auto;
+	width: 280px;
+	min-height: 24px;
+	line-height: 14px;
+	font-size: 10px;
+	color: #4A4A4A;
+	background: #ABE3EE;
+	border-radius: 6px;
+	text-align: center;
+}
+.SG-how-ul{
+	margin: 12px auto 0;
+	width: 260px;
+}
+.SG-how-ul li{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ADE4F0;
+}
+.SG-how-ul li:last-child{
+	border-bottom: 0px;
+}
+.SG-how-ul li img{
+	display: block;
+	margin:0 10px 0 6px;
+}
+.SG-how-ul li p{
+	flex: 1;
+	line-height: 14px;
+	font-size: 10px;
+	padding: 10px 0;
+}
+.howA{
+	color: #4277DE;
+}
+.howA:hover{
+	font-weight: 700;
+}
+
+
+
+
+/* 动图 banner */
+@keyframes scal{
+	from{-webkit-transform: scale(1.1,1);}
+	to{-webkit-transform: scale(1.2,1.1);}
+}
+@-moz-keyframes scal{
+	from{-webkit-transform: scale(1.1,1);}
+	to{-webkit-transform: scale(1.2,1.1);}
+}
+@-o-keyframes scal{
+	from{-webkit-transform: scale(1.1,1);}
+	to{-webkit-transform: scale(1.2,1.1);}
+}
+@-webkit-keyframes scal{
+	from{-webkit-transform: scale(1.1,1);}
+	to{-webkit-transform: scale(1.2,1.1);}
+}
+@-ms-keyframes scal{
+	from{-webkit-transform: scale(1.1,1);}
+	to{-webkit-transform: scale(1.2,1.1);}
+}
+.SG-steps{
+	padding-top: 30px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.SG-steps-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	transform: scale(1.1,1);
+	-ms-transform: scale(1.1,1);	/* IE 9 */
+	-moz-transform: scale(1.1,1);	/* Firefox */
+	-webkit-transform: scale(1.1,1); /* Safari 和 Chrome */
+	-o-transform: scale(1.1,1); 	/* Opera */
+	-ms-animation:scal 5s ease infinite alternate ;
+	-moz-animation:scal 5s ease infinite alternate ;
+	-o-animation:scal 5s ease infinite alternate ;
+	-webkit-animation:scal 5s ease infinite alternate ;
+	z-index: -1;
+}
+.SG-steps .title{
+	line-height: 22px;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 500;
+}
+.SG-steps-btn{
+	margin: 15px auto 30px;
+	position: relative;
+	display: block;
+	width: 150px;
+	height: 35px;
+	line-height: 33px;
+	font-size: 12px;
+	color: #fff;
+	text-align: left;
+	text-indent: 13px ;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.SG-steps-btn span{
+	color: #fff;
+}
+.rightBtn{
+	position: absolute;
+	top: 11px;
+	right: 6px;
+	display: block;
+	width: 19px;
+	height: 10px;
+	background: url("../images/aroow@2x.png") no-repeat center;
+	background-size: 100%;
+}
+.SG-steps .SG-steps-1{
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	padding: 0 20px;
+	width: 100%;
+	background-color:#202445;
+}
+.SG-footer-top,.SG-footer-bottom{
+	width: 100%;
+}
+.SG-footer-top{
+	padding: 15px 0 9px;
+	clear: both;
+	overflow: hidden;
+}
+.SG-footer-left{
+	width: 100%;
+}
+.SG-footer-left ul{
+	width: 280px;
+	height: 61px;
+	margin: 0 auto 11px;
+}
+.SG-footer-left ul li{
+	float: left;
+}
+.SG-footer-left ul li:nth-child(1){
+	width: 115px;
+	height: 20px;
+	background: url(../images/imagesMOB/logo_mobile@2x.png) no-repeat center;
+	background-size: 100%;
+	margin: 0 72px 12px 82px;
+}
+.SG-footer-left ul li:nth-child(2){
+	width: 29px;
+	height: 29px;
+	background: url(../images/facebook@2x.png) no-repeat center;
+	background-size: 100%;
+	margin: 0 6px 0 56px;
+	border-radius: 50%;
+}
+.SG-footer-left ul li:nth-child(3){
+	width: 29px;
+	height: 29px;
+	background: url(../images/wechat@2x.png) no-repeat center;
+	background-size: 100%;
+	margin-right: 6px;
+	border-radius: 50%;
+	position: relative;
+}
+.SG-footer-left ul li:nth-child(4){
+	width: 29px;
+	height: 29px;
+	background: url(../images/qq@2x.png) no-repeat center;
+	background-size: 100%;
+	margin-right: 6px;
+	border-radius: 50%;
+}
+.SG-footer-left ul li:nth-child(5){
+	width: 29px;
+	height: 29px;
+	background: url(../images/zhihu@2x.png) no-repeat center;
+	background-size: 100%;
+	margin-right: 6px;
+	border-radius: 50%;
+}
+.SG-footer-left ul li:nth-child(6){
+	width: 29px;
+	height: 29px;
+	background: url(../images/weibo@2x.png) no-repeat center;
+	background-size: 100%;
+	margin-right: 6px;
+	border-radius: 50%;
+}
+.SG-footer-left ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.SG-footer-left p{
+	line-height: 17px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.SG-footer-right{
+	padding-top: 18px;
+}
+.SG-footer-right p,.SG-footer-right div{
+	line-height: 17px;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+}
+.SG-footer-right p:nth-child(1){
+	font-size: 12px;
+}
+.ewmimg{
+	width: 120px;
+	height: 126px;
+	position: absolute;
+	top: 33px;
+	left: -45px;
+}
+.qqICON{
+	position: relative;
+}
+
+.qqpai{
+	width: 120px;
+	height: 126px;
+	position: absolute;
+	top: 33px;
+	left: -45px;
+	text-align: center;
+	font-size: 15px;
+	color: #383024;
+	background: url("../images/qqbg@2x.png") no-repeat center;
+	background-size: 100%;
+	line-height: 65px;
+}
+.SG-footer-bottom{
+	padding-bottom: 16px;
+	border-top: 1px solid #5F5F5F;
+}
+.SG-footer-bottom li{
+	height: 40px;
+	border-bottom: 1px solid #3B3C46;
+}
+.SG-footer-bottom li:nth-child(6){
+	height: 40px;
+	border-bottom: 1px solid #5F5F5F;
+}
+.SG-footer-bottom li:nth-child(7){
+	margin-top: 10px;
+	height: 8px;
+	line-height: 8px;
+	font-size: 8px;
+	color: #9B9999;
+	text-align: center;
+	border: none;
+}
+.SG-footer-bottom li div{
+	width: 190px;
+	height: 40px;
+	margin: 0 auto;
+}
+.SG-footer-bottom li div a{
+	display: block;
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	font-size: 12px;
+	color: #9B9999;
+}	
+.SG-footer-bottom li div span{
+	display: block;
+	float: right;
+	width: 5px;
+	height: 8px;
+	margin-top: 16px;
+	background: url('../images/imagesMOB/arrow@2x.png') no-repeat center;
+	background-size: 100%;
+}
+.SG-footer-bottom a:hover{
+	color: #fff;
+}
+.sbxx{
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.bbxj{
+	font-size: 10px;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+.stayTunedFor{
+	font-size: 16px;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+}

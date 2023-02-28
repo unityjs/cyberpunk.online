@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: MicrosoftYaHei, 微软雅黑, Helvetica, STHeiti, "Droid Sans Fallback";
+}
+.activeShow{
+	display: block !important;
+}
+.activeHidden{
+	display: none !important;
+}
+/* header    */
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+}
+header.active{
+	background-color: #202445;
+}
+.SG-nav{
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.EN_Show{
+	display: none!important;
+}
+.CN_Show{
+	display: block!important;
+}
+.shelves{
+	font-size: 10px;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
