@@ -5,7 +5,7 @@ import node_ip2region from "node-ip2region"
 const searcher = node_ip2region.create()
 //const qqwry = libqqwry()
 //qqwry.speed() //启用急速模式
-const ipdbv6 = new IPDBv6()
+///const ipdbv6 = new IPDBv6()
 
 export function getRegion(ip: string): string {
     try {
