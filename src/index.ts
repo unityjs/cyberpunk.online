@@ -42,7 +42,7 @@ async function initGameAnalytics(app: express.Express) {
 
 async function main() {
   const app = createExpress()
-  app.use(vhost('www.unityjs.net', express.static(path.join(process.cwd(), 'public/www'))))
+  app.use(express.static(path.join(process.cwd(), 'public/www')))
   app.use(vhost('www.cyberpunk.online', express.static(path.join(process.cwd(), 'public/cyberpunk.online'))))
   app.use(vhost('www.soulgame.cn', express.static(path.join(process.cwd(), 'public/soulgame.cn'))))
   app.use(vhost('ga.unityjs.net', express.static(path.join(process.cwd(), 'public/ga'))))
@@ -61,7 +61,8 @@ async function main() {
     initRelayServer(server)
   }else{
     const server = createServer(app)
-    server.listen(80, function () { console.log(`Running on ${80}`) })
+    const port = process.env.PORT || 5000
+    server.listen(port, function () { console.log(`Running on ${port}`) })
     initRelayServer(server)
   }
 }
