@@ -11,6 +11,7 @@ import { createExpress, createServer, createRedirectHttpsServer, GetProxyRouter 
 import { GetAdminRouter, GetApiRouter, GetApiRouterForGa } from "./gameAnalytics"
 import { connectDatabase } from "./utils/database"
 import { JWT_SECRET, MONGO_URI } from "./env";
+import  {  Server } from "http"
 
 
 async function initGameAnalytics(app: express.Express) {
@@ -22,6 +23,21 @@ async function initGameAnalytics(app: express.Express) {
   app.use('/g', vhost('api.unityjs.net', await GetApiRouterForGa()))
   app.use('/api/g', apiRouter)
   app.use('/api/admin', adminRouter)
+}
+
+
+ function initRelayServer(server: Server) {
+  const wss = new WebSocket.Server({ server })
+
+  new RelayServer({
+    server: wss,
+    serverName: 'wsss',
+    logLevel: 'warn',
+    callback: async (client) => {
+      //await remoteRelay(client, 'wasduijk', 'aes-256-cfb')
+      await remoteMultRelay(client, 'wasduijk', 'aes-256-cfb')
+    }
+  })
 }
 
 async function main() {
@@ -37,22 +53,17 @@ async function main() {
   app.use('/https/*', GetProxyRouter())
   //app.use('/heroku/*', GetProxyRouter(url => "https://api.unityjs.net" + url.substr(7)));
 
-  const httpsServer = createServer(app, true)
-  httpsServer.listen(443, function () { console.log(`Running on ${443}`) })
-
-  // WebSocket
-  const server = createRedirectHttpsServer()
-  const wss = new WebSocket.Server({ server })
-
-  new RelayServer({
-    server: wss,
-    serverName: 'wsss',
-    logLevel: 'warn',
-    callback: async (client) => {
-      //await remoteRelay(client, 'wasduijk', 'aes-256-cfb')
-      await remoteMultRelay(client, 'wasduijk', 'aes-256-cfb')
-    }
-  })
+  var useHttps = false
+  if(useHttps){
+    const httpsServer = createServer(app, true)
+    httpsServer.listen(443, function () { console.log(`Running on ${443}`) })
+    const server = createRedirectHttpsServer()
+    initRelayServer(server)
+  }else{
+    const server = createServer(app)
+    server.listen(80, function () { console.log(`Running on ${80}`) })
+    initRelayServer(server)
+  }
 }
 
 main()

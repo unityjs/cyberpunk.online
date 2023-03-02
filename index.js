@@ -106,7 +106,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(vhost('w.soulgame.cn', routerAutojs));
 app.use(recordURL);
-app.use(express.static(path.join(process.cwd(), 'public/soulgame.cn')));
+app.use(express.static(path.join(process.cwd(), 'public/cyberpunk')));
 routerAutojs.use(encodeRes(path.join(process.cwd(), 'public/autojs')));
 
 server = app.listen(app.get('port'), function () {

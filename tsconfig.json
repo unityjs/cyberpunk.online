@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "target": "esnext",
+      "lib": [ "dom", "es5", "es2015.promise" ,"es2015", "es2017", "es2019", "es2020"],
+      "module": "commonjs",
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true
+    }
+  }
+  
