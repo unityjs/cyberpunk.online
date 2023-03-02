@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <p id='server-time'></p>
+    <script>
+      var ws = new WebSocket('wss://cyberpunk.online');
+      var el = document.getElementById('server-time');
+      ws.onmessage = function (event) {
+        el.innerHTML = 'Server time: ' + event.data;
+      };
+    </script>
+  </body>
+</html>
