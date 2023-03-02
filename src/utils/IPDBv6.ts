@@ -1,9 +1,9 @@
 import fs from 'fs'
+import path from 'path'
 
 const DEFAULT_DB_PATH = './data/ipv6wry-country.db'
 
 export default class IPDBv6 {
-    dbname: string
     buffer: Buffer
     view: DataView
     max: number
@@ -11,12 +11,10 @@ export default class IPDBv6 {
     indexCount: number
     offlen: number
     iplen: number
-    constructor(path: string = DEFAULT_DB_PATH) {
-        this.dbname = path
-
+    constructor(filename: string = DEFAULT_DB_PATH) {
         //this.totalInMemoryBytesSize = fs.statSync(dbname).size
         //this.totalInMemoryBytes = null
-        this.buffer = fs.readFileSync(path)
+        this.buffer = fs.readFileSync(path.join(process.cwd(), filename))
         this.view = new DataView(this.buffer.buffer)
         this.max = this.buffer.length
 
