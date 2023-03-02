@@ -1,0 +1,15 @@
+2021-07-26T14:14:18.954Z Remote [31merror[39m: server error listen EADDRINUSE: address already in use :::8388
+Error: listen EADDRINUSE: address already in use :::8388
+    at Server.setupListenHandle [as _listen2] (node:net:1305:16)
+    at listenInCluster (node:net:1353:12)
+    at Server.listen (node:net:1440:7)
+    at new RelayServer (C:\home\git\unityjs.net\wsss\relayServer.ts:30:11)
+    at Object.<anonymous> (C:\home\git\unityjs.net\wsss\local.ts:32:1)
+    at Module._compile (node:internal/modules/cjs/loader:1095:14)
+    at Module.m._compile (C:\nodejs\node_global\node_modules\ts-node\src\index.ts:1295:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1124:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\nodejs\node_global\node_modules\ts-node\src\index.ts:1298:12)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+2021-07-26T14:14:31.826Z Remote [32minfo[39m: Server is listening
+2021-07-27T12:54:36.083Z Remote [32minfo[39m: Server is listening
+2021-08-02T16:41:34.660Z Remote [32minfo[39m: Server is listening
