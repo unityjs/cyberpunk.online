@@ -3071,11 +3071,13 @@ span.is-active:after {
 .game-card__title {
     text-transform: uppercase;
     margin-bottom: 8px;
+    white-space: nowrap;
+    font-size: 18px;
 }
 
 @media (max-width: 1199px) {
     .game-card__title {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
