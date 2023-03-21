@@ -1,6 +1,7 @@
 {
     "version": 2,
     "functions": {
+      
       "src/index.ts": {
         "runtime": "@vercel/node@1.8.1",
         "experimentalModule": true
