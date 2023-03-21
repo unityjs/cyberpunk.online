@@ -1,43 +1,62 @@
 {
-  "name": "unityjs-backend",
-  "version": "0.0.1",
-  "description": "A sample backend for an Instant Game",
+  "name": "chatgpt-web-service",
+  "version": "1.0.0",
+  "private": false,
+  "description": "ChatGPT Web Service",
+  "author": "ChenZhaoYu <chenzhaoyu1994@gmail.com>",
+  "keywords": [
+    "chatgpt-web",
+    "chatgpt",
+    "chatbot",
+    "express"
+  ],
+  "engines": {
+    "node": "^16 || ^18 || ^19"
+  },
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "start2": "ts-node src/wsss/local.ts"
+    "start": "esno ./src/index.ts",
+    "dev": "esno watch ./src/index.ts",
+    "prod": "esno ./build/index.js",
+    "build": "pnpm clean && tsup",
+    "clean": "rimraf build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "common:cleanup": "rimraf node_modules && rimraf pnpm-lock.yaml"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.178",
-    "@types/ws": "^6.0.1",
+    "axios": "^1.3.4",
+    "chatgpt": "^5.0.10",
+    "dotenv": "^16.0.3",
+    "esno": "^0.16.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "https-proxy-agent": "^5.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "node-fetch": "^3.3.0",
+    "socks-proxy-agent": "^7.0.0",
+    "vhost": "3.0.2",
+    "ws": "^7.1.0",
     "cors": "^2.8.5",
     "cron": "^1.8.2",
-    "crypto": "^1.0.1",
-    "express": "^4.13.3",
-    "express-jwt": "^5.3.1",
-    "http-status-codes": "^2.1.4",
-    "jsonwebtoken": "^8.5.1",
-    "lib-qqwry": "^1.3.2",
-    "lodash": "^4.17.21",
     "mongodb": "^3.1",
     "node-ip2region": "^1.0.2",
-    "typescript": "^4.3.5",
-    "vhost": "3.0.2",
-    "winston": "^3.3.3",
-    "ws": "^7.1.0"
+    "jsonwebtoken": "^8.5.1",
+    "http-status-codes": "^2.1.4",
+    "express-jwt": "^5.3.1",
+    "lib-qqwry": "^1.3.2",
+    "lodash": "^4.17.21",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@types/cron": "^1.7.3",
-    "@types/express": "^4.16.1",
-    "@types/jsonwebtoken": "^8.5.4",
-    "@types/node": "^11.12.0",
-    "@types/vhost": "^3.0.4",
-    "ts-node": "^10.0.0"
+    "@antfu/eslint-config": "^0.35.3",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "eslint": "^8.35.0",
+    "rimraf": "^4.3.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
   },
   "optionalDependencies": {
     "mongoose": "^5.11.3"
-  },
-  "keywords": [
-    "node",
-    "express"
-  ]
+  }
 }

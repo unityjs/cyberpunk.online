@@ -20,9 +20,9 @@ export function getRegion(ip: string): string {
         // IPv6
         m = ip.match(/^([\da-fA-F]{0,4}:){2,7}[\da-fA-F]{0,4}/)
         if (m) {
-            const ret = ipdbv6.getIPAddr(m[0])
-            if (ret) return ret.region
-            else throw new Error("IPv6 null")
+            //const ret = ipdbv6.getIPAddr(m[0])
+            //if (ret) return ret.region
+            //else throw new Error("IPv6 null")
         }
 
         // Bad IP

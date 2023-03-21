@@ -1,12 +1,27 @@
 {
-    "compilerOptions": {
-      "outDir": "lib",
-      "target": "esnext",
-      "lib": [ "dom", "es5", "es2015.promise" ,"es2015", "es2017", "es2019", "es2020"],
-      "module": "commonjs",
-      "allowJs": true,
-      "experimentalDecorators": true,
-      "esModuleInterop": true
-    }
-  }
-  
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": [
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "outDir": "build",
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}

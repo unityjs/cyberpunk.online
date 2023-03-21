@@ -12,6 +12,7 @@ import { GetAdminRouter, GetApiRouter, GetApiRouterForGa } from "./gameAnalytics
 import { connectDatabase } from "./utils/database"
 import { JWT_SECRET, MONGO_URI } from "./env";
 import  {  Server } from "http"
+import { chatgptRouter } from "./chatgptApi"
 
 
 async function initGameAnalytics(app: express.Express) {
@@ -47,6 +48,7 @@ async function main() {
   app.use(vhost('www.soulgame.cn', express.static(path.join(process.cwd(), 'public/soulgame.cn'))))
   app.use(vhost('ga.unityjs.net', express.static(path.join(process.cwd(), 'public/ga'))))
   app.use(vhost('localhost', express.static(path.join(process.cwd(), 'public/cyberpunk.online'))))
+  app.use("/api/chat", chatgptRouter)
   initGameAnalytics(app)
   // url代理功能
   app.use('/http/*', GetProxyRouter())
@@ -61,7 +63,7 @@ async function main() {
     initRelayServer(server)
   }else{
     const server = createServer(app)
-    const port = process.env.PORT || 5000
+    const port = process.env.PORT || 5001
     server.listen(port, function () { console.log(`Running on ${port}`) })
     initRelayServer(server)
   }

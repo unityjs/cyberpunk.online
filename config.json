@@ -1,9 +1,0 @@
-{
-    "server":"unityjs.herokuapp.com",
-    "server_port":4344,
-    "local_address":"127.0.0.1",
-    "local_port":8180,
-    "password":"wasduijk",
-    "timeout":1000,
-    "method":"rc4-md5"
-}

@@ -16,19 +16,18 @@ import { remoteMultRelay } from './remoteRelay'
     .option('--log-file <file>', 'log file')
     .parse(process.argv)*/
 
-
-let serverAddress = 'ws://www.miuigame.com'//'ws://185.199.224.214:80'//'wss://unityjs.herokuapp.com:443'//// 'ws://45.195.134.30:80'
+let serverAddress = 'ws://cyberpunk-online-unityjs.vercel.app:443'//'ws://www.cyberpunk.online'//'ws://www.miuigame.com'//'ws://185.199.224.214:80'//'wss://unityjs.herokuapp.com:443'//// 'ws://45.195.134.30:80'
 
 new RelayServer({
     port: 9080,
     serverName: 'Proxy',
-    logLevel: 'warn',
+    logLevel: 'info',
     callback: async (client) => {
         client.logger.level = "info"
         await socket5Relay(client, serverAddress, 'wasduijk', 'aes-256-cfb')
     }
 })
-
+/*
 new RelayServer({
     port: 8388,
     serverName: 'Remote',
@@ -37,7 +36,7 @@ new RelayServer({
         client.logger.level = "info"
         await localRelay(client, serverAddress)
     }
-})
+})*/
 /*
 serverAddress = 'ws://localhost'
 const httpServer = http.createServer()
