@@ -1,0 +1,1 @@
+require('esno')('./src/index.ts');
