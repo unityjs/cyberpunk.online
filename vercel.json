@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "startesno.js",
-        "use": "@vercel/node"
+        "src": "src/index.ts",
+        "use": "esno"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "startesno.js"
-      }
+        "dest": "src/index.ts"
+      } 
     ]
   }
