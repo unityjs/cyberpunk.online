@@ -1,4 +1,4 @@
-import { localRelay, socket5Relay } from './LocalRelay'
+import { localRelay, socket5Relay } from './localRelay'
 import { RelayServer } from './relayServer'
 import http from "http"
 import WebSocket from 'ws'
