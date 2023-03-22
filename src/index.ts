@@ -63,7 +63,7 @@ async function main() {
     initRelayServer(server)
   }else{
     const server = createServer(app)
-    const port = process.env.PORT || 5000
+    const port = process.env.PORT || 5002
     server.listen(port, function () { console.log(`Running on ${port}`) })
     initRelayServer(server)
   }
