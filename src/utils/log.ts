@@ -48,16 +48,16 @@ export function createLogger(name: string, level: string = "debug"): winston.Log
             }),
             new winston.transports.File({
                 level: 'debug',
-                filename: name + '.log',
+                filename: `logs/${name}.log`,
             }),
             new winston.transports.File({
-                filename: name + '_errors.log',
+                filename: `logs/${name}_errors.log`,
                 level: 'error'
             }),
             //new winston.transports.Http({ ssl: false, level: 'debug' })// 向web服务器上传日志
         ],
         exceptionHandlers: [
-            new winston.transports.File({ filename: name + 'exceptions.log' })
+            new winston.transports.File({ filename: `logs/${name}_exceptions.log` })
         ]
     })
     logger ||= l

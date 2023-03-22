@@ -243,7 +243,7 @@ export class ChatGPTUnofficialProxyAPI {
       })
     })
 
-    if (timeoutMs) {
+    /*if (timeoutMs) {
       if (abortController) {
         // This will be called when a timeout occurs in order for us to forcibly
         // ensure that the underlying HTTP request is aborted.
@@ -256,8 +256,8 @@ export class ChatGPTUnofficialProxyAPI {
         milliseconds: timeoutMs,
         message: 'ChatGPT timed out waiting for response'
       })
-    } else {
+    } else {*/
       return responseP
-    }
+    //}
   }
 }

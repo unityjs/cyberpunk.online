@@ -91,7 +91,7 @@ export class ChatGPTAPI {
       this._messageStore = messageStore
     } else {
       this._messageStore = new Keyv<types.ChatMessage, any>({
-        store: new QuickLRU<string, types.ChatMessage>({ maxSize: 10000 })
+        /*store: new QuickLRU<string, types.ChatMessage>({ maxSize: 10000 })*/
       })
     }
 
@@ -290,7 +290,7 @@ export class ChatGPTAPI {
       return this._upsertMessage(message).then(() => message)
     })
 
-    if (timeoutMs) {
+    /*if (timeoutMs) {
       if (abortController) {
         // This will be called when a timeout occurs in order for us to forcibly
         // ensure that the underlying HTTP request is aborted.
@@ -303,9 +303,9 @@ export class ChatGPTAPI {
         milliseconds: timeoutMs,
         message: 'OpenAI timed out waiting for response'
       })
-    } else {
+    } else {*/
       return responseP
-    }
+    //}
   }
 
   get apiKey(): string {
