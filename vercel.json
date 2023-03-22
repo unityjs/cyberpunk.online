@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/public/cyberpunk.online/(.*)",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "src/index.ts"
     }
