@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv'
 import 'isomorphic-fetch'
 import type { ChatGPTAPIOptions, ChatMessage, SendMessageOptions } from 'chatgpt'
-import { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from 'chatgpt'
+import type { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from 'chatgpt'
 import { SocksProxyAgent } from 'socks-proxy-agent'
 import { HttpsProxyAgent } from 'https-proxy-agent'
 import fetch from 'node-fetch'
@@ -9,6 +9,17 @@ import axios from 'axios'
 import { sendResponse } from '../utils'
 import { isNotEmptyString } from '../utils/is'
 import type { ApiModel, ChatContext, ChatGPTUnofficialProxyAPIOptions, ModelConfig } from '../types'
+
+// 定义一个变量来存储导入的模块
+let chatgptModule: typeof import("chatgpt") | undefined;
+
+// 定义一个异步函数来获取 chatgpt 模块
+async function getChatGPTModule() {
+  if (!chatgptModule) {
+    chatgptModule = await import("chatgpt");
+  }
+  return chatgptModule;
+}
 
 const ErrorCodeMessage: Record<string, string> = {
   401: '[OpenAI] 提供错误的API密钥 | Incorrect API key provided',
@@ -48,7 +59,8 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
 
     setupProxy(options)
 
-    api = new ChatGPTAPI({ ...options })
+    const import_chatgpt = await getChatGPTModule();
+    api = new import_chatgpt.ChatGPTAPI({ ...options })
     apiModel = 'ChatGPTAPI'
   }
   else {
@@ -62,7 +74,8 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
 
     setupProxy(options)
 
-    api = new ChatGPTUnofficialProxyAPI({ ...options })
+    const import_chatgpt = await getChatGPTModule();
+    api = new import_chatgpt.ChatGPTUnofficialProxyAPI({ ...options })
     apiModel = 'ChatGPTUnofficialProxyAPI'
   }
 })()
@@ -136,7 +149,7 @@ async function chatConfig() {
 }
 
 function setupProxy(options: ChatGPTAPIOptions | ChatGPTUnofficialProxyAPIOptions) {
-  if (process.env.SOCKS_PROXY_HOST && process.env.SOCKS_PROXY_PORT) {
+  /*if (process.env.SOCKS_PROXY_HOST && process.env.SOCKS_PROXY_PORT) {
     const agent = new SocksProxyAgent({
       hostname: process.env.SOCKS_PROXY_HOST,
       port: process.env.SOCKS_PROXY_PORT,
@@ -155,7 +168,7 @@ function setupProxy(options: ChatGPTAPIOptions | ChatGPTUnofficialProxyAPIOption
         }
       }
     }
-  }
+  }*/
 }
 
 function currentModel(): ApiModel {

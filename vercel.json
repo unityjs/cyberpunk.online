@@ -1,14 +1,15 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "build/index.cjs",
+        "use": "@vercel/node"
+      }
+    ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "src/index.ts"
+        "dest": "build/index.cjs"
       }
-    ],
-    "functions": {
-      "src/index.ts": {
-        "runtime": "@vercel/node@1.8.1",
-        "experimentalModule": true
-      }
-    }
+    ]
   }

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "ChatGPT Web Service",
+  "type": "module",
   "keywords": [
     "chatgpt-web",
     "chatgpt",
