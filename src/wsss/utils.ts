@@ -73,19 +73,19 @@ export function createLogger(title: string, level: string = "debug") {
                 //level: 'debug',
                 format: format.combine(format.colorize(), myFormat)
             }),
-            new winston.transports.File({
+            /*new winston.transports.File({
                 level: 'debug',
                 filename: `logs/${title}.log`,
             }),
             new winston.transports.File({
                 filename: `logs/${title}_errors.log`,
                 level: 'error'
-            }),
+            }),*/
             //new winston.transports.Http({ ssl: false, level: 'debug' })// 向web服务器上传日志
         ],
-        exceptionHandlers: [
+        /*exceptionHandlers: [
             new winston.transports.File({ filename: `logs/${title}_exceptions.log` })
-        ]
+        ]*/
 
     })
 
