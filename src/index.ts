@@ -16,7 +16,7 @@ import { chatgptRouter } from "./chatgptApi"
 
 
 async function initGameAnalytics(app: express.Express) {
-  await connectDatabase(MONGO_URI)
+  //await connectDatabase(MONGO_URI)
   const adminRouter = await GetAdminRouter(JWT_SECRET)
   const apiRouter = await GetApiRouter()
   app.use(vhost('ga.unityjs.net', adminRouter))
@@ -49,7 +49,7 @@ async function main() {
   app.use(vhost('ga.unityjs.net', express.static(path.join(process.cwd(), 'public/ga'))))
   app.use(vhost('localhost', express.static(path.join(process.cwd(), 'public/cyberpunk.online'))))
   app.use("/api/chat", chatgptRouter)
-  initGameAnalytics(app)
+  //initGameAnalytics(app)
   // url代理功能
   app.use('/http/*', GetProxyRouter())
   app.use('/https/*', GetProxyRouter())
