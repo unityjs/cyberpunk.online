@@ -1,7 +1,8 @@
 import * as dotenv from 'dotenv'
 import 'isomorphic-fetch'
-import type { ChatGPTAPIOptions, ChatMessage, SendMessageOptions } from 'chatgpt'
-import type { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from 'chatgpt'
+//import type { ChatGPTAPIOptions, ChatMessage, SendMessageOptions } from 'chatgpt'
+import type { ChatGPTAPIOptions, ChatMessage, SendMessageOptions } from '../../chatgpt-api'
+import { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from '../../chatgpt-api'
 import { SocksProxyAgent } from 'socks-proxy-agent'
 import { HttpsProxyAgent } from 'https-proxy-agent'
 import fetch from 'node-fetch'
@@ -9,17 +10,6 @@ import axios from 'axios'
 import { sendResponse } from '../utils'
 import { isNotEmptyString } from '../utils/is'
 import type { ApiModel, ChatContext, ChatGPTUnofficialProxyAPIOptions, ModelConfig } from '../types'
-
-// 定义一个变量来存储导入的模块
-let chatgptModule: typeof import("chatgpt") | undefined;
-
-// 定义一个异步函数来获取 chatgpt 模块
-async function getChatGPTModule() {
-  if (!chatgptModule) {
-    chatgptModule = await import("chatgpt");
-  }
-  return chatgptModule;
-}
 
 const ErrorCodeMessage: Record<string, string> = {
   401: '[OpenAI] 提供错误的API密钥 | Incorrect API key provided',
@@ -59,8 +49,7 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
 
     setupProxy(options)
 
-    const import_chatgpt = await getChatGPTModule();
-    api = new import_chatgpt.ChatGPTAPI({ ...options })
+    api = new ChatGPTAPI({ ...options })
     apiModel = 'ChatGPTAPI'
   }
   else {
@@ -74,8 +63,7 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
 
     setupProxy(options)
 
-    const import_chatgpt = await getChatGPTModule();
-    api = new import_chatgpt.ChatGPTUnofficialProxyAPI({ ...options })
+    api = new ChatGPTUnofficialProxyAPI({ ...options })
     apiModel = 'ChatGPTUnofficialProxyAPI'
   }
 })()

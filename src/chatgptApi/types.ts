@@ -1,4 +1,4 @@
-import type { FetchFn } from 'chatgpt'
+import type { FetchFn } from '../chatgpt-api'
 
 export interface ChatContext {
   conversationId?: string
