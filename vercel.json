@@ -4,13 +4,9 @@
     {
       "src": "src/index.ts",
       "use": "@vercel/node"
-    },
-    {
-      "src": "public/cyberpunk/*",
-      "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
       "src": "/api/(.*)",
       "dest": "src/index.ts"
