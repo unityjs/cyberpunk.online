@@ -60,12 +60,12 @@ async function main() {
     const httpsServer = createServer(app, true)
     httpsServer.listen(443, function () { console.log(`Running on ${443}`) })
     const server = createRedirectHttpsServer()
-    initRelayServer(server)
+    //initRelayServer(server)
   }else{
     const server = createServer(app)
     const port = process.env.PORT || 5002
     server.listen(port, function () { console.log(`Running on ${port}`) })
-    initRelayServer(server)
+    //initRelayServer(server)
   }
 }
 

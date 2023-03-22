@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     },
     {
-      "src": "public/cyberpunk/.*",
+      "src": "public/cyberpunk.online/**",
       "use": "@vercel/static"
     }
   ],
@@ -17,7 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "public/cyberpunk/$1"
+      "dest": "public/cyberpunk.online/$1"
     }
   ]
 }
