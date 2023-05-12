@@ -78,7 +78,8 @@ export class ChatGPTAPI {
 
     if (this._systemMessage === undefined) {
       const currentDate = new Date().toISOString().split('T')[0]
-      this._systemMessage = `You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.\nKnowledge cutoff: 2021-09-01\nCurrent date: ${currentDate}`
+      //this._systemMessage = `You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.\nKnowledge cutoff: 2021-09-01\nCurrent date: ${currentDate}`
+      this._systemMessage = `你是 ChatGPT，OpenAI 训练的大型语言模型。 尽可能简洁地回答。\nCurrent date: ${currentDate}`
     }
 
     this._maxModelTokens = maxModelTokens
@@ -242,9 +243,8 @@ export class ChatGPTAPI {
 
             if (!res.ok) {
               const reason = await res.text()
-              const msg = `OpenAI error ${
-                res.status || res.statusText
-              }: ${reason}`
+              const msg = `OpenAI error ${res.status || res.statusText
+                }: ${reason}`
               const error = new types.ChatGPTError(msg, { cause: res })
               error.statusCode = res.status
               error.statusText = res.statusText
@@ -271,8 +271,7 @@ export class ChatGPTAPI {
               const res = response as any
               return reject(
                 new Error(
-                  `OpenAI error: ${
-                    res?.detail?.message || res?.detail || 'unknown'
+                  `OpenAI error: ${res?.detail?.message || res?.detail || 'unknown'
                   }`
                 )
               )
@@ -304,7 +303,7 @@ export class ChatGPTAPI {
         message: 'OpenAI timed out waiting for response'
       })
     } else {*/
-      return responseP
+    return responseP
     //}
   }
 
@@ -336,12 +335,12 @@ export class ChatGPTAPI {
     const systemMessageOffset = messages.length
     let nextMessages = text
       ? messages.concat([
-          {
-            role: 'user',
-            content: text,
-            name: opts.name
-          }
-        ])
+        {
+          role: 'user',
+          content: text,
+          name: opts.name
+        }
+      ])
       : messages
     let numTokens = 0
 
