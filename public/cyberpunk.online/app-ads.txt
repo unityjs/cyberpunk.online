@@ -1,5 +1,6 @@
 app.ads.txt,20220706
 #admob
+google.com, pub-8866654859419315, DIRECT, f08c47fec0942fa0
 google.com, pub-1247616305170237, DIRECT, f08c47fec0942fa0
 google.com, pub-8266139206836193, DIRECT, f08c47fec0942fa0
 google.com, pub-4034997535728810, DIRECT, f08c47fec0942fa0
