@@ -137,7 +137,7 @@ function getRandomItems(list, count) {
 }
 
 function getRecommendGameUrl(key) {
-  return origin + '/'+ (isDanfa ? 'danfa/' : 'games/') + key + '/index.html'
+  return origin + '/game/'+ (isDanfa ? 'danfa/' : 'games/') + key + '/index.html'
 }
 
 function getRecommendList() {
@@ -150,7 +150,7 @@ function getRecommendList() {
     // },
     {
       url: getRecommendGameUrl('fruitkiller'),
-      icon: '/images/banner/fruitkiller.png',
+      icon: '/game/images/banner/fruitkiller.png',
       key: 'fruitkiller'
     },
     // {
@@ -161,12 +161,12 @@ function getRecommendList() {
 
     {
       url: getRecommendGameUrl('Elastic-Car'),
-      icon: '/images/banner/Elastic-Car.jpg',
+      icon: '/game/images/banner/Elastic-Car.jpg',
       key: 'Elastic-Car'
     },
     {
       url: getRecommendGameUrl('SquidGame'),
-      icon: '/images/banner/SquidGame.jpg',
+      icon: '/game/images/banner/SquidGame.jpg',
       key: 'SquidGame'
     },
     // {
@@ -186,7 +186,7 @@ function getRecommendList() {
     // },
     {
       url: getRecommendGameUrl('Color-Fill'),
-      icon: '/images/banner/Color-Fill.png',
+      icon: '/game/images/banner/Color-Fill.png',
       key: 'Color-Fill'
     }
   ];
@@ -245,7 +245,7 @@ var appInnerHtml = '<div id="gameFrameContainer"> \
     ></span>\
   </div>\
 </div>\
-<div class="middle-ad">\
+<div class="middle-ad" style="display: none;">\
   <div id="view1__ad"><ins></ins></div>\
 </div>\
 <div class="bottom-info">\
