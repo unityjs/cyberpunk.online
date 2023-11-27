@@ -137,7 +137,7 @@ function getRandomItems(list, count) {
 }
 
 function getRecommendGameUrl(key) {
-  return origin + '/game/'+ (isDanfa ? 'danfa/' : 'games/') + key + '/index.html'
+  return origin + '/game/'+ (isDanfa ? 'danfa/' : 'global/') + key + '/index.html'
 }
 
 function getRecommendList() {
