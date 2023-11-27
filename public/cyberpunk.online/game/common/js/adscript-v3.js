@@ -196,8 +196,8 @@ function getRecommendList() {
 }
 
 function track(eventName, eventParams) {
-  if (gtag) {
-    gtag('event', eventName, eventParams || {})
+  if (window.gtag) {
+    window.gtag('event', eventName, eventParams || {})
   }
 }
 
