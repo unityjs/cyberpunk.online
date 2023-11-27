@@ -1,0 +1,3 @@
+
+  window.global__meta = {"key":"Elastic-Car","name":"Elastic Car","desc":"This is a great game. It simulates a real driving road and adds a lot of various obstacles to the road. You can control the vehicle by accelerating and decelerating, avoiding obstacles or giving the car. Speed up and let you experience the thrill of drag racing yourself!","icon":"https://hippofunnygame.com/games/Elastic-Car/icon.png"}
+  

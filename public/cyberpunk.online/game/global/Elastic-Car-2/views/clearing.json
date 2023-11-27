@@ -1,0 +1,295 @@
+{
+    "type": "View",
+    "props": {
+        "width": 750,
+        "visible": true,
+        "runtime": "scripts/views/ClearingView.ts",
+        "height": 1334
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "y": -429,
+                "x": -40,
+                "width": 830,
+                "skin": "ui/common/bg_mask.png",
+                "name": "bg",
+                "height": 2200,
+                "alpha": 0.7
+            },
+            "compId": 92
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 30,
+                "x": 0,
+                "visible": true,
+                "name": "topPanel"
+            },
+            "compId": 42,
+            "child": [
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 0,
+                        "x": 255,
+                        "width": 281,
+                        "visible": false,
+                        "texture": "ui/common/collect_hand.png",
+                        "name": "collectHand",
+                        "height": 54
+                    },
+                    "compId": 82
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 131,
+                "x": 0,
+                "width": 750,
+                "name": "score",
+                "height": 130
+            },
+            "compId": 6,
+            "child": [
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": -19,
+                        "x": 321.5,
+                        "width": 107,
+                        "text": "Score",
+                        "name": "lblName",
+                        "height": 38,
+                        "fontSize": 40,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff"
+                    },
+                    "compId": 16
+                },
+                {
+                    "type": "FontClip",
+                    "props": {
+                        "y": 42,
+                        "x": 0,
+                        "width": 697,
+                        "value": "0",
+                        "spaceX": -50,
+                        "skin": "ui/common/font_num.png",
+                        "sheet": "1234567890+",
+                        "name": "fontScore",
+                        "height": 100,
+                        "align": "center"
+                    },
+                    "compId": 83
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 92,
+                        "x": 161,
+                        "visible": false,
+                        "skin": "",
+                        "name": "Image_success"
+                    },
+                    "compId": 95
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 436,
+                "x": 77.5,
+                "visible": false,
+                "name": "rank"
+            },
+            "compId": 84,
+            "child": [
+                {
+                    "type": "WXOpenDataViewer",
+                    "props": {
+                        "y": 68,
+                        "x": 0,
+                        "width": 600,
+                        "runtime": "laya.ui.WXOpenDataViewer",
+                        "name": "content",
+                        "iconSign": "wx",
+                        "height": 284
+                    },
+                    "compId": 85
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "width": 600,
+                        "skin": "",
+                        "name": "bgRank",
+                        "height": 352,
+                        "cacheAs": "normal"
+                    },
+                    "compId": 86,
+                    "child": [
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 18,
+                                "x": 223,
+                                "text": "好友排行榜",
+                                "name": "lblName",
+                                "fontSize": 30,
+                                "color": "#ffffff",
+                                "bold": true
+                            },
+                            "compId": 87
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "x": 74,
+                "width": 607,
+                "name": "bottomPanel",
+                "height": 112,
+                "cacheAs": "normal",
+                "bottom": 100
+            },
+            "compId": 38,
+            "child": [
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 112,
+                        "x": -74,
+                        "width": 750,
+                        "stateNum": 1,
+                        "skin": "ui/common/mask_white.png",
+                        "sizeGrid": "2,2,2,2",
+                        "name": "appBanner",
+                        "label": " ",
+                        "height": 260
+                    },
+                    "compId": 74
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -156,
+                        "x": 255.5,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_home.png",
+                        "name": "btnBack",
+                        "label": " ",
+                        "cacheAs": "normal"
+                    },
+                    "compId": 20
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -30,
+                        "x": 145,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_agen.png",
+                        "name": "btnPlay"
+                    },
+                    "compId": 53
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -184,
+                        "x": 993,
+                        "stateNum": 1,
+                        "skin": "ui/common/btn_figth.png",
+                        "name": "btnShare",
+                        "cacheAs": "normal"
+                    },
+                    "compId": 19
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "runtime": "scripts/uiComp/AppBanner.ts",
+                "panel": "@node:38",
+                "category": 2,
+                "banner": "@node:74"
+            },
+            "compId": 89
+        },
+        {
+            "type": "Button",
+            "props": {
+                "y": 270,
+                "x": 236,
+                "width": 240,
+                "stateNum": 1,
+                "pivotX": 120,
+                "name": "btnGameL1",
+                "height": 300
+            },
+            "compId": 98
+        },
+        {
+            "type": "Button",
+            "props": {
+                "y": 270,
+                "x": 510,
+                "width": 240,
+                "stateNum": 1,
+                "pivotX": 120,
+                "name": "btnGameL2",
+                "height": 300
+            },
+            "compId": 99
+        },
+        {
+            "type": "Button",
+            "props": {
+                "y": 590,
+                "x": 236,
+                "width": 240,
+                "stateNum": 1,
+                "pivotX": 120,
+                "name": "btnGameR1",
+                "height": 300
+            },
+            "compId": 100
+        },
+        {
+            "type": "Button",
+            "props": {
+                "y": 590,
+                "x": 510,
+                "width": 240,
+                "stateNum": 1,
+                "pivotX": 120,
+                "name": "btnGameR2",
+                "height": 300
+            },
+            "compId": 101
+        }
+    ],
+    "loadList": [
+        "ui/common/bg_mask.png",
+        "ui/common/collect_hand.png",
+        "ui/common/font_num.png",
+        "",
+        "",
+        "ui/common/mask_white.png",
+        "ui/common/btn_home.png",
+        "ui/common/btn_agen.png",
+        "ui/common/btn_figth.png"
+    ],
+    "loadList3D": []
+}
