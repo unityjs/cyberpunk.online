@@ -137,7 +137,7 @@ function getRandomItems(list, count) {
 }
 
 function getRecommendGameUrl(key) {
-  return origin + '/game/'+ (isDanfa ? 'danfa/' : 'global/') + key + '/index.html'
+  return '../../'+ (isDanfa ? 'danfa/' : 'global/') + key + '/index.html'
 }
 
 function getRecommendList() {
@@ -150,7 +150,7 @@ function getRecommendList() {
     // },
     {
       url: getRecommendGameUrl('fruitkiller'),
-      icon: '/game/images/banner/fruitkiller.png',
+      icon: '../../images/banner/fruitkiller.png',
       key: 'fruitkiller'
     },
     // {
@@ -161,12 +161,12 @@ function getRecommendList() {
 
     {
       url: getRecommendGameUrl('Elastic-Car'),
-      icon: '/game/images/banner/Elastic-Car.jpg',
+      icon: '../../images/banner/Elastic-Car.jpg',
       key: 'Elastic-Car'
     },
     {
       url: getRecommendGameUrl('SquidGame'),
-      icon: '/game/images/banner/SquidGame.jpg',
+      icon: '../../images/banner/SquidGame.jpg',
       key: 'SquidGame'
     },
     // {
@@ -186,7 +186,7 @@ function getRecommendList() {
     // },
     {
       url: getRecommendGameUrl('Color-Fill'),
-      icon: '/game/images/banner/Color-Fill.png',
+      icon: '../../images/banner/Color-Fill.png',
       key: 'Color-Fill'
     }
   ];
@@ -1651,7 +1651,7 @@ function showFrontLoading() {
   container.style.boxSizing = 'border-box';
 
   var logo = document.createElement('img');
-  logo.src = '/common/imgs/fw-logo.png';
+  logo.src = '../../common/imgs/fw-logo.png';
   logo.style.width = '61.2037vw';
   logo.style.height = '23.6111vw';
   logo.style.marginBottom = '7.3148vw';
