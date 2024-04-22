@@ -1,0 +1,774 @@
+{
+  "ID": "b6426233-45c3-4e38-9bc6-fa2162f9fd72",
+  "Version": "2.3.4",
+  "Name": "relife_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 120,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/popdiban.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 197,
+            "Scale9Height": 202,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 365.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2852
+            },
+            "PreSize": {
+              "X": 0.9861,
+              "Y": 0.5625
+            },
+            "LeftMargin": 5.0,
+            "RightMargin": 5.0,
+            "TopMargin": 555.0,
+            "BottomMargin": 5.0,
+            "Tag": 97,
+            "ActionTag": -586520343,
+            "Size": {
+              "X": 710.0,
+              "Y": 720.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/relife_light.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.862,
+              "Y": 469.8775
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4998,
+              "Y": 0.3671
+            },
+            "PreSize": {
+              "X": 0.2931,
+              "Y": 0.1648
+            },
+            "LeftMargin": 254.362,
+            "RightMargin": 254.638,
+            "TopMargin": 704.6225,
+            "BottomMargin": 364.3775,
+            "Tag": 126,
+            "ActionTag": -1293425276,
+            "Size": {
+              "X": 211.0,
+              "Y": 211.0
+            },
+            "Name": "light",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/halo.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 373.2084,
+              "Y": 575.7429
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5183,
+              "Y": 0.4498
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.0336
+            },
+            "LeftMargin": 331.2084,
+            "RightMargin": 304.7916,
+            "TopMargin": 682.7571,
+            "BottomMargin": 554.2429,
+            "Tag": 127,
+            "ActionTag": 1510009679,
+            "Size": {
+              "X": 84.0,
+              "Y": 43.0
+            },
+            "Name": "halo_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/relife_wingleft.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 332.7982,
+              "Y": 472.0264
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4622,
+              "Y": 0.3688
+            },
+            "PreSize": {
+              "X": 0.1917,
+              "Y": 0.0969
+            },
+            "LeftMargin": 194.7982,
+            "RightMargin": 387.2018,
+            "TopMargin": 683.9736,
+            "BottomMargin": 472.0264,
+            "Tag": 128,
+            "ActionTag": 1250499121,
+            "Size": {
+              "X": 138.0,
+              "Y": 124.0
+            },
+            "Name": "wing_left_8",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/relife_wingright.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 393.2631,
+              "Y": 451.5992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5462,
+              "Y": 0.3528
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0875
+            },
+            "LeftMargin": 393.2631,
+            "RightMargin": 176.7369,
+            "TopMargin": 716.4008,
+            "BottomMargin": 451.5992,
+            "Tag": 129,
+            "ActionTag": 711649637,
+            "Size": {
+              "X": 150.0,
+              "Y": 112.0
+            },
+            "Name": "wing_right_9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/star.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.1636,
+              "Y": 476.999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5016,
+              "Y": 0.3727
+            },
+            "PreSize": {
+              "X": 0.2333,
+              "Y": 0.1281
+            },
+            "LeftMargin": 277.1636,
+            "RightMargin": 274.8364,
+            "TopMargin": 721.001,
+            "BottomMargin": 394.999,
+            "Tag": 130,
+            "ActionTag": 1366492956,
+            "Size": {
+              "X": 168.0,
+              "Y": 164.0
+            },
+            "Name": "star_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "10000",
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 434.6061,
+              "Y": 332.3687
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6036,
+              "Y": 0.2597
+            },
+            "PreSize": {
+              "X": 0.0694,
+              "Y": 0.0156
+            },
+            "LeftMargin": 409.6061,
+            "RightMargin": 260.3939,
+            "TopMargin": 937.6313,
+            "BottomMargin": 322.3687,
+            "Tag": 24,
+            "ActionTag": -476147665,
+            "Size": {
+              "X": 50.0,
+              "Y": 20.0
+            },
+            "Name": "aw_fntf_text1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 34,
+            "LabelText": "Whether to get 999999 points\nto skip this level",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 357.0231,
+              "Y": 318.6258
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4959,
+              "Y": 0.2489
+            },
+            "PreSize": {
+              "X": 0.6625,
+              "Y": 0.0531
+            },
+            "LeftMargin": 118.5231,
+            "RightMargin": 124.4769,
+            "TopMargin": 927.3742,
+            "BottomMargin": 284.6258,
+            "Tag": 709,
+            "ActionTag": -1505085300,
+            "Size": {
+              "X": 477.0,
+              "Y": 68.0
+            },
+            "Name": "send_img_5",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 40,
+            "LabelText": "Choose to revive?",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 357.3092,
+              "Y": 318.0967
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4963,
+              "Y": 0.2485
+            },
+            "PreSize": {
+              "X": 0.4681,
+              "Y": 0.0313
+            },
+            "LeftMargin": 188.8092,
+            "RightMargin": 194.1908,
+            "TopMargin": 941.9033,
+            "BottomMargin": 298.0967,
+            "Tag": 708,
+            "ActionTag": -544550677,
+            "Size": {
+              "X": 337.0,
+              "Y": 40.0
+            },
+            "Name": "send_img_6",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 33,
+            "Scale9Width": 33,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 363.3882,
+              "Y": 207.2364
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5047,
+              "Y": 0.1619
+            },
+            "PreSize": {
+              "X": 0.6667,
+              "Y": 0.0805
+            },
+            "LeftMargin": 123.3882,
+            "RightMargin": 116.6118,
+            "TopMargin": 1021.2636,
+            "BottomMargin": 155.7364,
+            "Tag": 1466,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/watch.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.3471,
+                  "Y": 53.5121
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2153,
+                  "Y": 0.5195
+                },
+                "PreSize": {
+                  "X": 0.1375,
+                  "Y": 0.466
+                },
+                "LeftMargin": 70.3471,
+                "RightMargin": 343.6529,
+                "TopMargin": 25.4879,
+                "BottomMargin": 29.5121,
+                "Tag": 172,
+                "ActionTag": -93128853,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 48.0
+                },
+                "Name": "type_ad1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 38,
+                "LabelText": "Revive for free",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 249,
+                  "G": 188,
+                  "B": 150
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 284.72,
+                  "Y": 53.3434
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 246,
+                  "G": 83,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5932,
+                  "Y": 0.5179
+                },
+                "PreSize": {
+                  "X": 0.4979,
+                  "Y": 0.4466
+                },
+                "LeftMargin": 165.22,
+                "RightMargin": 75.78,
+                "TopMargin": 26.6566,
+                "BottomMargin": 30.3434,
+                "Tag": 1467,
+                "ActionTag": -1200604380,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 46.0
+                },
+                "Name": "Sprite_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1151905102,
+            "Size": {
+              "X": 480.0,
+              "Y": 103.0
+            },
+            "Name": "btnFree",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 40,
+            "LabelText": "CONTINUE",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 356.799,
+              "Y": 657.8624
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4956,
+              "Y": 0.514
+            },
+            "PreSize": {
+              "X": 0.2861,
+              "Y": 0.0313
+            },
+            "LeftMargin": 253.799,
+            "RightMargin": 260.201,
+            "TopMargin": 602.1376,
+            "BottomMargin": 637.8624,
+            "Tag": 128,
+            "ActionTag": 1598387361,
+            "Size": {
+              "X": 206.0,
+              "Y": 40.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/pop_anniu2.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 363.858,
+              "Y": 80.3552
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5054,
+              "Y": 0.0628
+            },
+            "PreSize": {
+              "X": 0.4278,
+              "Y": 0.0805
+            },
+            "LeftMargin": 209.858,
+            "RightMargin": 202.142,
+            "TopMargin": 1148.1448,
+            "BottomMargin": 28.8552,
+            "Tag": 130,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/no.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 156.9119,
+                  "Y": 54.3475
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5095,
+                  "Y": 0.5276
+                },
+                "PreSize": {
+                  "X": 0.5422,
+                  "Y": 0.3107
+                },
+                "LeftMargin": 73.4119,
+                "RightMargin": 67.5881,
+                "TopMargin": 32.6525,
+                "BottomMargin": 38.3475,
+                "Tag": 131,
+                "ActionTag": 523400255,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 32.0
+                },
+                "Name": "no_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 17819673,
+            "Size": {
+              "X": 308.0,
+              "Y": 103.0
+            },
+            "Name": "close_btn",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist4.plist",
+        "imgpng/imgpngplist4.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

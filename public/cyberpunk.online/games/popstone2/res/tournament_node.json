@@ -1,0 +1,330 @@
+{
+  "ID": "e709f30d-8da0-4b51-9d11-804eecb99e06",
+  "Version": "2.3.4",
+  "Name": "tournament_node",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 31,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -166.7341,
+              "Y": -0.3286
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -166.7341,
+            "RightMargin": 166.7341,
+            "TopMargin": 0.3286,
+            "BottomMargin": -0.3286,
+            "Tag": 101,
+            "ActionTag": -1412022753,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "head_node",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "o_tournament/t_head_bg_white.png",
+              "Plist": "imgpng/imgpngplist6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 139,
+            "Scale9OriginY": 21,
+            "Scale9Width": 41,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -280.0,
+            "RightMargin": -280.0,
+            "TopMargin": -32.0,
+            "BottomMargin": -32.0,
+            "Tag": 570,
+            "ActionTag": -503070968,
+            "Size": {
+              "X": 560.0,
+              "Y": 64.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "o_tournament/t_head_bg_blue.png",
+              "Plist": "imgpng/imgpngplist6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 139,
+            "Scale9OriginY": 21,
+            "Scale9Width": 41,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -280.0,
+            "RightMargin": -280.0,
+            "TopMargin": -32.0,
+            "BottomMargin": -32.0,
+            "Tag": 103,
+            "ActionTag": -424220399,
+            "Size": {
+              "X": 560.0,
+              "Y": 64.0
+            },
+            "Name": "bg_blue",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "4",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -234.8515,
+              "Y": -0.9082
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -264.8515,
+            "RightMargin": 204.8515,
+            "TopMargin": -16.0918,
+            "BottomMargin": -17.9082,
+            "Tag": 572,
+            "ActionTag": 819032517,
+            "Size": {
+              "X": 60.0,
+              "Y": 34.0
+            },
+            "Name": "rank_label",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 28,
+            "LabelText": "name",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 21.941,
+              "Y": 0.7979
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -103.059,
+            "RightMargin": -146.941,
+            "TopMargin": -25.7979,
+            "BottomMargin": -24.2021,
+            "Tag": 573,
+            "ActionTag": -291359028,
+            "Size": {
+              "X": 250.0,
+              "Y": 50.0
+            },
+            "Name": "name_label",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 28,
+            "LabelText": "1009",
+            "HorizontalAlignmentType": "HT_Right",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 115.9389,
+              "Y": -2.2022
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -9.0611,
+            "RightMargin": -240.9389,
+            "TopMargin": -22.7978,
+            "BottomMargin": -27.2022,
+            "Tag": 574,
+            "ActionTag": -1494680130,
+            "Size": {
+              "X": 250.0,
+              "Y": 50.0
+            },
+            "Name": "score_label",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "imgpng/imgpngplist6.plist",
+        "imgpng/imgpngplist6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

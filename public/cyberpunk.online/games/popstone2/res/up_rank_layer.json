@@ -1,0 +1,302 @@
+{
+  "ID": "1580ee14-8cf3-4247-91e4-8c2e31a27049",
+  "Version": "2.3.4",
+  "Name": "up_rank_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/achieve_color_bg.png",
+              "Plist": "imgpng/imgpngplist8.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0001,
+              "Y": 878.4138
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6863
+            },
+            "PreSize": {
+              "X": 0.5,
+              "Y": 0.3156
+            },
+            "LeftMargin": 180.0001,
+            "RightMargin": 179.9999,
+            "TopMargin": 199.5862,
+            "BottomMargin": 676.4138,
+            "Tag": 28,
+            "ActionTag": 252445645,
+            "Size": {
+              "X": 360.0,
+              "Y": 404.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/blue_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 37,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.9907,
+              "Y": 165.8467
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5014,
+              "Y": 0.1296
+            },
+            "PreSize": {
+              "X": 0.3764,
+              "Y": 0.0805
+            },
+            "LeftMargin": 225.4907,
+            "RightMargin": 223.5093,
+            "TopMargin": 1062.6533,
+            "BottomMargin": 114.3467,
+            "Tag": 227,
+            "Children": [
+              {
+                "FontSize": 42,
+                "LabelText": "CONTINUE",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.8307,
+                  "Y": 54.1434
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 61,
+                  "B": 140
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4938,
+                  "Y": 0.5257
+                },
+                "PreSize": {
+                  "X": 0.7897,
+                  "Y": 0.4078
+                },
+                "LeftMargin": 26.8307,
+                "RightMargin": 30.1693,
+                "TopMargin": 27.8566,
+                "BottomMargin": 33.1434,
+                "Tag": 228,
+                "ActionTag": -1406615820,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 42.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1737122215,
+            "Size": {
+              "X": 271.0,
+              "Y": 103.0
+            },
+            "Name": "btnContinue",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 37,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1012.2115,
+              "Y": 187.8108
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.4058,
+              "Y": 0.1467
+            },
+            "PreSize": {
+              "X": 0.3764,
+              "Y": 0.0805
+            },
+            "LeftMargin": 876.7115,
+            "RightMargin": -427.7115,
+            "TopMargin": 1040.6892,
+            "BottomMargin": 136.3108,
+            "Tag": 229,
+            "Children": [
+              {
+                "FontSize": 42,
+                "LabelText": "SHARE",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 133.8307,
+                  "Y": 54.1434
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 254,
+                  "G": 95,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4938,
+                  "Y": 0.5257
+                },
+                "PreSize": {
+                  "X": 0.5314,
+                  "Y": 0.4078
+                },
+                "LeftMargin": 61.8307,
+                "RightMargin": 65.1693,
+                "TopMargin": 27.8566,
+                "BottomMargin": 33.1434,
+                "Tag": 230,
+                "ActionTag": -137788996,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 42.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1273009965,
+            "Size": {
+              "X": 271.0,
+              "Y": 103.0
+            },
+            "VisibleForFrame": false,
+            "Name": "btnShare",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist8.plist",
+        "imgpng/imgpngplist8.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

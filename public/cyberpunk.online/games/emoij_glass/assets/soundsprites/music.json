@@ -1,0 +1,18 @@
+{
+  "spritemap": {
+    "game": {
+      "start": 0.049,
+      "end": 24,
+      "loop":true
+    },
+    "interface": {
+      "start": 24.25,
+      "end": 36.239773,
+      "loop":true
+    }
+  },
+  "resources": [
+    "music.ogg",
+    "music.mp3"
+  ]
+}

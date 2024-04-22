@@ -1,0 +1,595 @@
+{
+  "ID": "17c89f9a-0ae2-4598-9dd4-1ac0cf55b87b",
+  "Version": "2.3.4",
+  "Name": "reward_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 170,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/popdiban.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 197,
+            "Scale9Height": 202,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 365.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2852
+            },
+            "PreSize": {
+              "X": 0.9861,
+              "Y": 0.5625
+            },
+            "LeftMargin": 5.0,
+            "RightMargin": 5.0,
+            "TopMargin": 555.0,
+            "BottomMargin": 5.0,
+            "Tag": 123,
+            "ActionTag": -1118281077,
+            "Size": {
+              "X": 710.0,
+              "Y": 720.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/reward_icon.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 362.5244,
+              "Y": 517.0697
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5035,
+              "Y": 0.404
+            },
+            "PreSize": {
+              "X": 0.5556,
+              "Y": 0.1945
+            },
+            "LeftMargin": 162.5244,
+            "RightMargin": 157.4756,
+            "TopMargin": 638.4303,
+            "BottomMargin": 392.5697,
+            "Tag": 173,
+            "ActionTag": -477112679,
+            "Size": {
+              "X": 400.0,
+              "Y": 249.0
+            },
+            "Name": "reward_icon_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 35,
+            "LabelText": "Watch a video to get\n        100",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 358.1714,
+              "Y": 329.5255
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4975,
+              "Y": 0.2574
+            },
+            "PreSize": {
+              "X": 0.5,
+              "Y": 0.0547
+            },
+            "LeftMargin": 178.1714,
+            "RightMargin": 181.8286,
+            "TopMargin": 915.4745,
+            "BottomMargin": 294.5255,
+            "Tag": 56,
+            "ActionTag": 1464752020,
+            "Size": {
+              "X": 360.0,
+              "Y": 70.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 33,
+            "Scale9Width": 33,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 356.0774,
+              "Y": 205.3362
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4946,
+              "Y": 0.1604
+            },
+            "PreSize": {
+              "X": 0.6667,
+              "Y": 0.0805
+            },
+            "LeftMargin": 116.0774,
+            "RightMargin": 123.9226,
+            "TopMargin": 1023.1638,
+            "BottomMargin": 153.8362,
+            "Tag": 58,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/watch.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 58.8453,
+                  "Y": 54.2244
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1226,
+                  "Y": 0.5265
+                },
+                "PreSize": {
+                  "X": 0.1375,
+                  "Y": 0.466
+                },
+                "LeftMargin": 25.8453,
+                "RightMargin": 388.1547,
+                "TopMargin": 24.7756,
+                "BottomMargin": 30.2244,
+                "Tag": 171,
+                "ActionTag": -534748055,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 48.0
+                },
+                "Name": "type_ad2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "Get 100 Diamonds (3)",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 249,
+                  "G": 188,
+                  "B": 150
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 266.388,
+                  "Y": 54.5834
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 246,
+                  "G": 83,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.555,
+                  "Y": 0.5299
+                },
+                "PreSize": {
+                  "X": 0.7125,
+                  "Y": 0.4175
+                },
+                "LeftMargin": 95.388,
+                "RightMargin": 42.612,
+                "TopMargin": 26.9166,
+                "BottomMargin": 33.0834,
+                "Tag": 59,
+                "ActionTag": 171899903,
+                "Size": {
+                  "X": 342.0,
+                  "Y": 43.0
+                },
+                "Name": "des_txt",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "Collect (3)    a    a",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 249,
+                  "G": 188,
+                  "B": 150
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 238.388,
+                  "Y": 54.5834
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 246,
+                  "G": 83,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4966,
+                  "Y": 0.5299
+                },
+                "PreSize": {
+                  "X": 0.5813,
+                  "Y": 0.4175
+                },
+                "LeftMargin": 98.888,
+                "RightMargin": 102.112,
+                "TopMargin": 26.9166,
+                "BottomMargin": 33.0834,
+                "Tag": 76,
+                "ActionTag": 1588352927,
+                "Size": {
+                  "X": 279.0,
+                  "Y": 43.0
+                },
+                "Name": "collect_txt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 258472919,
+            "Size": {
+              "X": 480.0,
+              "Y": 103.0
+            },
+            "Name": "btnWatch",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/pop_anniu2.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 363.858,
+              "Y": 80.3552
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5054,
+              "Y": 0.0628
+            },
+            "PreSize": {
+              "X": 0.4278,
+              "Y": 0.0805
+            },
+            "LeftMargin": 209.858,
+            "RightMargin": 202.142,
+            "TopMargin": 1148.1448,
+            "BottomMargin": 28.8552,
+            "Tag": 158,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/no.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 156.9119,
+                  "Y": 54.3475
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5095,
+                  "Y": 0.5276
+                },
+                "PreSize": {
+                  "X": 0.5422,
+                  "Y": 0.3107
+                },
+                "LeftMargin": 73.4119,
+                "RightMargin": 67.5881,
+                "TopMargin": 32.6525,
+                "BottomMargin": 38.3475,
+                "Tag": 159,
+                "ActionTag": -2096139,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 32.0
+                },
+                "Name": "no_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -980190542,
+            "Size": {
+              "X": 308.0,
+              "Y": 103.0
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 45,
+            "LabelText": "CONGRATULATIONS",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 356.7992,
+              "Y": 661.8626
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4956,
+              "Y": 0.5171
+            },
+            "PreSize": {
+              "X": 0.6139,
+              "Y": 0.0352
+            },
+            "LeftMargin": 135.7992,
+            "RightMargin": 142.2008,
+            "TopMargin": 595.6374,
+            "BottomMargin": 639.3626,
+            "Tag": 160,
+            "ActionTag": 710951770,
+            "Size": {
+              "X": 442.0,
+              "Y": 45.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/zhuanshi.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 412.0985,
+              "Y": 310.0284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5724,
+              "Y": 0.2422
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0289
+            },
+            "LeftMargin": 389.5985,
+            "RightMargin": 285.4015,
+            "TopMargin": 951.4716,
+            "BottomMargin": 291.5284,
+            "Tag": 57,
+            "ActionTag": 1375090295,
+            "Size": {
+              "X": 45.0,
+              "Y": 37.0
+            },
+            "Name": "zhuanshi_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist4.plist",
+        "imgpng/imgpngplist4.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

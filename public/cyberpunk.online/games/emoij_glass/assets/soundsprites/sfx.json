@@ -1,0 +1,81 @@
+{
+  "spritemap": {
+    "button": {
+      "start": 0,
+      "end": 0.195147
+    },
+    "cannon1": {
+      "start": 0.445147,
+      "end": 0.723968
+    },
+    "cannon2": {
+      "start": 0.973968,
+      "end": 1.29322
+    },
+    "cannon3": {
+      "start": 1.54322,
+      "end": 2.041497
+    },
+    "cannon4": {
+      "start": 2.291497,
+      "end": 2.584422
+    },
+    "cannon5": {
+      "start": 2.834422,
+      "end": 3.142857
+    },
+    "gameover": {
+      "start": 3.392857,
+      "end": 3.625646
+    },
+    "gift": {
+      "start": 3.875646,
+      "end": 7.239252
+    },
+    "minion_1": {
+      "start": 7.489252,
+      "end": 9.239456
+    },
+    "minion_2": {
+      "start": 9.489456,
+      "end": 10.769456
+    },
+    "minion_3": {
+      "start": 11.019456,
+      "end": 12.116599
+    },
+    "minion_4": {
+      "start": 12.366599,
+      "end": 13.280884
+    },
+    "minion_5": {
+      "start": 13.530884,
+      "end": 14.758639
+    },
+    "minion_6": {
+      "start": 15.008639,
+      "end": 15.844558
+    },
+    "minion_7": {
+      "start": 16.094558,
+      "end": 17.29619
+    },
+    "scribble": {
+      "start": 17.54619,
+      "end": 18.773469
+    },
+    "star": {
+      "start": 19.023469,
+      "end": 20.303469
+    },
+    "wheel": {
+      "start": 20.553469,
+      "end": 25.545079
+    }
+  },
+  "resources": [
+    "sfx.wav",
+    "sfx.ogg",
+    "sfx.mp3"
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "ID": "229ba0b6-5916-418e-a595-4302f4d1513f",
+  "Version": "2.3.4",
+  "Name": "pause_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 27,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 358.7611,
+              "Y": 640.6193
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4983,
+              "Y": 0.5005
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 308.7611,
+            "RightMargin": 311.2389,
+            "TopMargin": 589.3807,
+            "BottomMargin": 590.6193,
+            "Tag": 107,
+            "ActionTag": 625385792,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 153,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/scalesprite1.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 82,
+            "Scale9Height": 82,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0005,
+              "Y": 619.3616
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4839
+            },
+            "PreSize": {
+              "X": 0.5278,
+              "Y": 0.4537
+            },
+            "LeftMargin": 170.0005,
+            "RightMargin": 169.9995,
+            "TopMargin": 370.2997,
+            "BottomMargin": 329.0228,
+            "Tag": 125,
+            "ActionTag": -692385783,
+            "Size": {
+              "X": 380.0,
+              "Y": 580.6775
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_close_btn.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 522.9905,
+              "Y": 882.5057
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7264,
+              "Y": 0.6895
+            },
+            "PreSize": {
+              "X": 0.1306,
+              "Y": 0.0766
+            },
+            "LeftMargin": 475.9905,
+            "RightMargin": 150.0095,
+            "TopMargin": 348.4943,
+            "BottomMargin": 833.5057,
+            "Tag": 109,
+            "ActionTag": -1440875167,
+            "Size": {
+              "X": 94.0,
+              "Y": 98.0
+            },
+            "Name": "close_btn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 17,
+            "Scale9Width": 33,
+            "Scale9Height": 69,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.3124,
+              "Y": 799.4663
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5004,
+              "Y": 0.6246
+            },
+            "PreSize": {
+              "X": 0.3194,
+              "Y": 0.0805
+            },
+            "LeftMargin": 245.3124,
+            "RightMargin": 244.6876,
+            "TopMargin": 429.0337,
+            "BottomMargin": 747.9663,
+            "Tag": 1401,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public_btn/icon_home.png",
+                  "Plist": "imgpng/imgpngplist3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.9251,
+                  "Y": 53.7745
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5171,
+                  "Y": 0.5221
+                },
+                "PreSize": {
+                  "X": 0.3304,
+                  "Y": 0.6408
+                },
+                "LeftMargin": 80.9251,
+                "RightMargin": 73.0749,
+                "TopMargin": 16.2255,
+                "BottomMargin": 20.7745,
+                "Tag": 1402,
+                "ActionTag": 1807726204,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 66.0
+                },
+                "Name": "icon_home_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1198789006,
+            "Size": {
+              "X": 230.0,
+              "Y": 103.0
+            },
+            "Name": "home_btn",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 17,
+            "Scale9Width": 33,
+            "Scale9Height": 69,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.9716,
+              "Y": 675.7128
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5279
+            },
+            "PreSize": {
+              "X": 0.3194,
+              "Y": 0.0805
+            },
+            "LeftMargin": 244.9716,
+            "RightMargin": 245.0284,
+            "TopMargin": 552.7872,
+            "BottomMargin": 624.2128,
+            "Tag": 1412,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public_btn/icon_sound_close.png",
+                  "Plist": "imgpng/imgpngplist3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.0,
+                  "Y": 53.7748
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.513,
+                  "Y": 0.5221
+                },
+                "PreSize": {
+                  "X": 0.3087,
+                  "Y": 0.6214
+                },
+                "LeftMargin": 82.5,
+                "RightMargin": 76.5,
+                "TopMargin": 17.2252,
+                "BottomMargin": 21.7748,
+                "Tag": 1413,
+                "ActionTag": -340550374,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 64.0
+                },
+                "Name": "closesound",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public_btn/icon_sound_open.png",
+                  "Plist": "imgpng/imgpngplist3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.93,
+                  "Y": 53.7747
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5127,
+                  "Y": 0.5221
+                },
+                "PreSize": {
+                  "X": 0.3043,
+                  "Y": 0.6214
+                },
+                "LeftMargin": 82.93,
+                "RightMargin": 77.07,
+                "TopMargin": 17.2253,
+                "BottomMargin": 21.7747,
+                "Tag": 1414,
+                "ActionTag": 515362789,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 64.0
+                },
+                "Name": "opensound",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1423781101,
+            "Size": {
+              "X": 230.0,
+              "Y": 103.0
+            },
+            "Name": "btnsound_sound",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/dblclick.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5014,
+              "Y": 0.4375
+            },
+            "PreSize": {
+              "X": 0.3194,
+              "Y": 0.0805
+            },
+            "LeftMargin": 246.0,
+            "RightMargin": 244.0,
+            "TopMargin": 668.5,
+            "BottomMargin": 508.5,
+            "Tag": 13,
+            "ActionTag": -63857462,
+            "Size": {
+              "X": 230.0,
+              "Y": 103.0
+            },
+            "Name": "dblclick",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 17,
+            "Scale9Width": 33,
+            "Scale9Height": 69,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.5397,
+              "Y": 440.9221
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5021,
+              "Y": 0.3445
+            },
+            "PreSize": {
+              "X": 0.3194,
+              "Y": 0.0805
+            },
+            "LeftMargin": 246.5397,
+            "RightMargin": 243.4603,
+            "TopMargin": 787.5779,
+            "BottomMargin": 389.4221,
+            "Tag": 1415,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public_btn/icon_wenhao.png",
+                  "Plist": "imgpng/imgpngplist3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.9251,
+                  "Y": 53.7745
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5171,
+                  "Y": 0.5221
+                },
+                "PreSize": {
+                  "X": 0.2174,
+                  "Y": 0.6893
+                },
+                "LeftMargin": 93.9251,
+                "RightMargin": 86.0749,
+                "TopMargin": 13.7255,
+                "BottomMargin": 18.2745,
+                "Tag": 1416,
+                "ActionTag": 357399681,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 71.0
+                },
+                "Name": "icon_home_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 643837101,
+            "Size": {
+              "X": 230.0,
+              "Y": 103.0
+            },
+            "Name": "help_btn",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

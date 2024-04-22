@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "loading_bar_back",
+	"frame": {"x":36,"y":1,"w":635,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":635,"h":14},
+	"sourceSize": {"w":635,"h":14},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "loading_bar_front",
+	"frame": {"x":36,"y":17,"w":635,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":635,"h":14},
+	"sourceSize": {"w":635,"h":14},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "loading_bar_glow",
+	"frame": {"x":1,"y":1,"w":33,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":22},
+	"sourceSize": {"w":33,"h":22},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "preloader.png",
+	"format": "RGBA8888",
+	"size": {"w":672,"h":32},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2848a8a186b4f10c85c7814dd8b65a96:bf1bf9d8edb1ad8bb637a8bdeb39425d:b6cdaa10a06bef6f46bf15cd0aaf732b$"
+}
+}

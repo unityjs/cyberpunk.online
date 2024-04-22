@@ -1,0 +1,1822 @@
+{
+  "ID": "cf25bbb8-d410-4c5f-ae29-7a483f227226",
+  "Version": "2.3.4",
+  "Name": "sd_snow_ball",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.9999,
+              "Y": 637.0839
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4977
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 309.9999,
+            "RightMargin": 310.0001,
+            "TopMargin": 592.9161,
+            "BottomMargin": 587.0839,
+            "Tag": 177,
+            "ActionTag": 571906445,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 153,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "sd_snow/sd_bj.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 291,
+            "ActionTag": 1344106916,
+            "Size": {
+              "X": 720.0,
+              "Y": 1280.0
+            },
+            "Name": "sd_bj_38",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_flush_bg.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 351.8,
+              "Y": 78.4677
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4886,
+              "Y": 0.0613
+            },
+            "PreSize": {
+              "X": 0.7667,
+              "Y": 0.0641
+            },
+            "LeftMargin": 75.8,
+            "RightMargin": 92.2,
+            "TopMargin": 1160.5323,
+            "BottomMargin": 37.4677,
+            "Tag": 293,
+            "ActionTag": -448831994,
+            "Size": {
+              "X": 552.0,
+              "Y": 82.0
+            },
+            "Name": "sd_flush_bg_40",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "flush time : 20:00:00",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 35,
+              "G": 103,
+              "B": 71
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 355.4442,
+              "Y": 87.1692
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 254,
+              "G": 254,
+              "B": 254
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4937,
+              "Y": 0.0681
+            },
+            "PreSize": {
+              "X": 0.6944,
+              "Y": 0.0391
+            },
+            "LeftMargin": 105.4442,
+            "RightMargin": 114.5558,
+            "TopMargin": 1167.8308,
+            "BottomMargin": 62.1692,
+            "Tag": 194,
+            "ActionTag": 1140771310,
+            "Size": {
+              "X": 500.0,
+              "Y": 50.0
+            },
+            "Name": "flush_time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_back.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 70.8804,
+              "Y": 1161.4194
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0984,
+              "Y": 0.9074
+            },
+            "PreSize": {
+              "X": 0.1125,
+              "Y": 0.1414
+            },
+            "LeftMargin": 30.3804,
+            "RightMargin": 608.6196,
+            "TopMargin": 28.0806,
+            "BottomMargin": 1070.9194,
+            "Tag": 126,
+            "ActionTag": 768541862,
+            "Size": {
+              "X": 81.0,
+              "Y": 181.0
+            },
+            "Name": "back_btn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 720.0,
+            "TopMargin": 1280.0,
+            "Tag": 299,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 355.2639,
+                  "Y": 959.2739
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 355.2639,
+                "RightMargin": -355.2639,
+                "TopMargin": -959.2739,
+                "BottomMargin": 959.2739,
+                "Tag": 300,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 311,
+                    "ActionTag": 156485187,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1041379588,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 305.4677,
+                  "Y": 875.1779
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 305.4677,
+                "RightMargin": -305.4677,
+                "TopMargin": -875.1779,
+                "BottomMargin": 875.1779,
+                "Tag": 301,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 25,
+                    "ActionTag": -896896789,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 923671705,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 415.5218,
+                  "Y": 857.427
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 415.5218,
+                "RightMargin": -415.5218,
+                "TopMargin": -857.427,
+                "BottomMargin": 857.427,
+                "Tag": 302,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 26,
+                    "ActionTag": -1540904211,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 546448257,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 361.0659,
+                  "Y": 795.5518
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 361.0659,
+                "RightMargin": -361.0659,
+                "TopMargin": -795.5518,
+                "BottomMargin": 795.5518,
+                "Tag": 303,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 27,
+                    "ActionTag": -1801944990,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1242991875,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 248.9566,
+                  "Y": 745.4721
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 248.9566,
+                "RightMargin": -248.9566,
+                "TopMargin": -745.4721,
+                "BottomMargin": 745.4721,
+                "Tag": 304,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 28,
+                    "ActionTag": -662641929,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -811925972,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift4",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 187.8332,
+                  "Y": 664.843
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 187.8332,
+                "RightMargin": -187.8332,
+                "TopMargin": -664.843,
+                "BottomMargin": 664.843,
+                "Tag": 305,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 29,
+                    "ActionTag": -830395955,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -811853816,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift5",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 279.9369,
+                  "Y": 633.2198
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 279.9369,
+                "RightMargin": -279.9369,
+                "TopMargin": -633.2198,
+                "BottomMargin": 633.2198,
+                "Tag": 306,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 30,
+                    "ActionTag": 1788459855,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1356207894,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift6",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 465.7878,
+                  "Y": 724.3624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 465.7878,
+                "RightMargin": -465.7878,
+                "TopMargin": -724.3624,
+                "BottomMargin": 724.3624,
+                "Tag": 307,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 31,
+                    "ActionTag": -1114870318,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -826630512,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift7",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 415.7187,
+                  "Y": 638.0376
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 415.7187,
+                "RightMargin": -415.7187,
+                "TopMargin": -638.0376,
+                "BottomMargin": 638.0376,
+                "Tag": 308,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 32,
+                    "ActionTag": 777612949,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -867581051,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift8",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 529.4192,
+                  "Y": 631.9198
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 529.4192,
+                "RightMargin": -529.4192,
+                "TopMargin": -631.9198,
+                "BottomMargin": 631.9198,
+                "Tag": 309,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "x2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/hytjtj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 11,
+                      "G": 44,
+                      "B": 13
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.0,
+                      "Y": -30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 254,
+                      "G": 254,
+                      "B": 254
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -45.0,
+                    "RightMargin": -55.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 33,
+                    "ActionTag": -1060080788,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 50.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 2142466148,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gift9",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -296519056,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "gifts",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_dg.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 377.7216,
+              "Y": 215.3346
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5246,
+              "Y": 0.1682
+            },
+            "PreSize": {
+              "X": 0.3556,
+              "Y": 0.1836
+            },
+            "LeftMargin": 249.7216,
+            "RightMargin": 214.2784,
+            "TopMargin": 947.1654,
+            "BottomMargin": 97.8346,
+            "Tag": 292,
+            "ActionTag": 1083962173,
+            "Size": {
+              "X": 256.0,
+              "Y": 235.0
+            },
+            "Name": "btn_dangong",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 720.0,
+            "TopMargin": 1280.0,
+            "Tag": 310,
+            "ActionTag": -218933222,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "snow_layer",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_snowball.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 658.0,
+              "Y": 63.0
+            },
+            "Scale": {
+              "ScaleX": 0.75,
+              "ScaleY": 0.75
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9139,
+              "Y": 0.0492
+            },
+            "PreSize": {
+              "X": 0.1292,
+              "Y": 0.0727
+            },
+            "LeftMargin": 611.5,
+            "RightMargin": 15.5,
+            "TopMargin": 1170.5,
+            "BottomMargin": 16.5,
+            "Tag": 297,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 201,
+                  "G": 40,
+                  "B": 154
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 42.77,
+                  "Y": 7.8785
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 254,
+                  "G": 254,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4599,
+                  "Y": 0.0847
+                },
+                "PreSize": {
+                  "X": 0.8602,
+                  "Y": 0.5376
+                },
+                "LeftMargin": 2.77,
+                "RightMargin": 10.23,
+                "TopMargin": 60.1215,
+                "BottomMargin": -17.1215,
+                "Tag": 298,
+                "ActionTag": 990792521,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 50.0
+                },
+                "Name": "num",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1027874425,
+            "Size": {
+              "X": 93.0,
+              "Y": 93.0
+            },
+            "Name": "show_nums",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 720.0,
+            "TopMargin": 1280.0,
+            "Tag": 250,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 365.657,
+                  "Y": 853.4496
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 365.657,
+                "RightMargin": -365.657,
+                "TopMargin": -853.4496,
+                "BottomMargin": 853.4496,
+                "Tag": 251,
+                "ActionTag": 708188739,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "pos0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 245.7216,
+                  "Y": 648.4709
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 245.7216,
+                "RightMargin": -245.7216,
+                "TopMargin": -648.4709,
+                "BottomMargin": 648.4709,
+                "Tag": 252,
+                "ActionTag": -62380976,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "pos1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 481.0371,
+                  "Y": 640.0605
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 481.0371,
+                "RightMargin": -481.0371,
+                "TopMargin": -640.0605,
+                "BottomMargin": 640.0605,
+                "Tag": 253,
+                "ActionTag": 2049265151,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "pos2",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 1844283604,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "empty_pos",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/sd_green_btn.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 192.0
+            },
+            "Scale": {
+              "ScaleX": 5.3,
+              "ScaleY": 6.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.15
+            },
+            "PreSize": {
+              "X": 0.2042,
+              "Y": 0.0602
+            },
+            "LeftMargin": 286.5,
+            "RightMargin": 286.5,
+            "TopMargin": 1049.5,
+            "BottomMargin": 153.5,
+            "Tag": 90,
+            "ActionTag": 2055162361,
+            "Size": {
+              "X": 147.0,
+              "Y": 77.0
+            },
+            "Alpha": 0,
+            "Name": "drag_panel",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_snowball.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.0763,
+              "Y": 164.754
+            },
+            "Scale": {
+              "ScaleX": 0.75,
+              "ScaleY": 0.75
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9126,
+              "Y": 0.1287
+            },
+            "PreSize": {
+              "X": 0.1292,
+              "Y": 0.0727
+            },
+            "LeftMargin": 610.5763,
+            "RightMargin": 16.4237,
+            "TopMargin": 1068.746,
+            "BottomMargin": 118.254,
+            "Tag": 295,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "FREE",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 201,
+                  "G": 40,
+                  "B": 154
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44.9442,
+                  "Y": 9.3277
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 254,
+                  "G": 254,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4833,
+                  "Y": 0.1003
+                },
+                "PreSize": {
+                  "X": 0.8602,
+                  "Y": 0.5376
+                },
+                "LeftMargin": 4.9442,
+                "RightMargin": 8.0558,
+                "TopMargin": 58.6723,
+                "BottomMargin": -15.6723,
+                "Tag": 296,
+                "ActionTag": 1380539534,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 50.0
+                },
+                "Name": "Text_7",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 46333399,
+            "Size": {
+              "X": 93.0,
+              "Y": 93.0
+            },
+            "Name": "btn_free",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "sd_snow/guide_finger.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 491.0,
+              "Y": 312.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6819,
+              "Y": 0.2438
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.0508
+            },
+            "LeftMargin": 449.0,
+            "RightMargin": 187.0,
+            "TopMargin": 935.5,
+            "BottomMargin": 279.5,
+            "Tag": 242,
+            "ActionTag": -3235933,
+            "Size": {
+              "X": 84.0,
+              "Y": 65.0
+            },
+            "VisibleForFrame": false,
+            "Name": "guide_finger",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist10.plist",
+        "imgpng/imgpngplist10.png",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist9.plist",
+        "imgpng/imgpngplist9.png",
+        "sd_snow/guide_finger.png",
+        "sd_snow/sd_bj.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

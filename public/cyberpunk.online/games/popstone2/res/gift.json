@@ -1,0 +1,771 @@
+{
+  "ID": "03c49c58-b4c4-40a1-98ae-57f1a22c6c98",
+  "Version": "2.3.4",
+  "Name": "gift",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 310.0,
+            "RightMargin": 310.0,
+            "TopMargin": 590.0,
+            "BottomMargin": 590.0,
+            "Tag": 177,
+            "ActionTag": 571906445,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 153,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/scalesprite1.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 82,
+            "Scale9Height": 82,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.6945,
+              "Y": 600.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.501,
+              "Y": 0.4688
+            },
+            "PreSize": {
+              "X": 0.8264,
+              "Y": 0.5078
+            },
+            "LeftMargin": 63.1945,
+            "RightMargin": 61.8055,
+            "TopMargin": 355.0,
+            "BottomMargin": 275.0,
+            "Tag": 176,
+            "ActionTag": 333691120,
+            "Size": {
+              "X": 595.0,
+              "Y": 650.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_close_btn.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 900.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8889,
+              "Y": 0.7031
+            },
+            "PreSize": {
+              "X": 0.1306,
+              "Y": 0.0766
+            },
+            "LeftMargin": 593.0,
+            "RightMargin": 33.0,
+            "TopMargin": 331.0,
+            "BottomMargin": 851.0,
+            "Tag": 126,
+            "ActionTag": 768541862,
+            "Size": {
+              "X": 94.0,
+              "Y": 98.0
+            },
+            "Name": "closeBtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/green_big.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 32,
+            "Scale9Width": 44,
+            "Scale9Height": 34,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.0992,
+              "Y": 899.8741
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5015,
+              "Y": 0.703
+            },
+            "PreSize": {
+              "X": 0.5472,
+              "Y": 0.0766
+            },
+            "LeftMargin": 164.0992,
+            "RightMargin": 161.9008,
+            "TopMargin": 331.1259,
+            "BottomMargin": 850.8741,
+            "Tag": 1291,
+            "Children": [
+              {
+                "FontSize": 52,
+                "LabelText": "Daily GiftAAAAAAA",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 193.4038,
+                  "Y": 51.693
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4909,
+                  "Y": 0.5275
+                },
+                "PreSize": {
+                  "X": 1.2487,
+                  "Y": 0.5306
+                },
+                "LeftMargin": -52.5962,
+                "RightMargin": -45.4038,
+                "TopMargin": 20.307,
+                "BottomMargin": 25.693,
+                "Tag": 1146,
+                "ActionTag": 615161116,
+                "Size": {
+                  "X": 492.0,
+                  "Y": 52.0
+                },
+                "Name": "titleTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1338343534,
+            "Size": {
+              "X": 394.0,
+              "Y": 98.0
+            },
+            "Name": "gifttitle_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/rewardlight.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 650.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5078
+            },
+            "PreSize": {
+              "X": 0.4778,
+              "Y": 0.1789
+            },
+            "LeftMargin": 188.0,
+            "RightMargin": 188.0,
+            "TopMargin": 515.5,
+            "BottomMargin": 535.5,
+            "Tag": 1135,
+            "ActionTag": 844307089,
+            "Size": {
+              "X": 344.0,
+              "Y": 229.0
+            },
+            "Name": "rewardlight_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/imgdem.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 370.0,
+              "Y": 655.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5139,
+              "Y": 0.5117
+            },
+            "PreSize": {
+              "X": 0.1958,
+              "Y": 0.1063
+            },
+            "LeftMargin": 299.5,
+            "RightMargin": 279.5,
+            "TopMargin": 557.0,
+            "BottomMargin": 587.0,
+            "Tag": 1136,
+            "ActionTag": -2120210888,
+            "Size": {
+              "X": 141.0,
+              "Y": 136.0
+            },
+            "Name": "imgdem_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/imgloop.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 730.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3333,
+              "Y": 0.5703
+            },
+            "PreSize": {
+              "X": 0.1958,
+              "Y": 0.1063
+            },
+            "LeftMargin": 169.5,
+            "RightMargin": 409.5,
+            "TopMargin": 482.0,
+            "BottomMargin": 662.0,
+            "Tag": 1137,
+            "ActionTag": -1638997422,
+            "Size": {
+              "X": 141.0,
+              "Y": 136.0
+            },
+            "Name": "imgloop_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "watchad/imghammer.png",
+              "Plist": "imgpng/imgpngplist4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 500.0,
+              "Y": 755.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6944,
+              "Y": 0.5898
+            },
+            "PreSize": {
+              "X": 0.1958,
+              "Y": 0.1063
+            },
+            "LeftMargin": 429.5,
+            "RightMargin": 149.5,
+            "TopMargin": 457.0,
+            "BottomMargin": 687.0,
+            "Tag": 1138,
+            "ActionTag": 1622825270,
+            "Size": {
+              "X": 141.0,
+              "Y": 136.0
+            },
+            "Name": "imghammer_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 35,
+            "LabelText": "Would you like to watch an AD\n    and get the rewards?",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.2593,
+              "Y": 483.3227
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 228
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5017,
+              "Y": 0.3776
+            },
+            "PreSize": {
+              "X": 0.7319,
+              "Y": 0.0547
+            },
+            "LeftMargin": 97.7593,
+            "RightMargin": 95.2407,
+            "TopMargin": 761.6773,
+            "BottomMargin": 448.3227,
+            "Tag": 1140,
+            "ActionTag": -761123973,
+            "Size": {
+              "X": 527.0,
+              "Y": 70.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 33,
+            "Scale9Width": 33,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 374.0519,
+              "Y": 378.3975
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5195,
+              "Y": 0.2956
+            },
+            "PreSize": {
+              "X": 0.4458,
+              "Y": 0.0695
+            },
+            "LeftMargin": 213.5519,
+            "RightMargin": 185.4481,
+            "TopMargin": 857.1025,
+            "BottomMargin": 333.8975,
+            "Tag": 1292,
+            "Children": [
+              {
+                "FontSize": 40,
+                "LabelText": "COLLECT",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 249,
+                  "G": 188,
+                  "B": 150
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 164.0664,
+                  "Y": 45.4793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 246,
+                  "G": 83,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5111,
+                  "Y": 0.511
+                },
+                "PreSize": {
+                  "X": 0.4766,
+                  "Y": 0.5393
+                },
+                "LeftMargin": 87.5664,
+                "RightMargin": 80.4336,
+                "TopMargin": 19.5207,
+                "BottomMargin": 21.4793,
+                "Tag": 1142,
+                "ActionTag": 1787301738,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 48.0
+                },
+                "Name": "collect",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 5.4387,
+                  "Y": 0.5714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0169,
+                  "Y": 0.0064
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 5.4387,
+                "RightMargin": 315.5613,
+                "TopMargin": 88.4286,
+                "BottomMargin": 0.5714,
+                "Tag": 1143,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "watchad/watch.png",
+                      "Plist": "imgpng/imgpngplist4.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.9536,
+                      "Y": 45.5741
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 44.9536,
+                    "RightMargin": -110.9536,
+                    "TopMargin": -69.5741,
+                    "BottomMargin": 21.5741,
+                    "Tag": 1145,
+                    "ActionTag": 1282610101,
+                    "Size": {
+                      "X": 66.0,
+                      "Y": 48.0
+                    },
+                    "Name": "watch_10",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "LabelText": "FREE",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 249,
+                      "G": 188,
+                      "B": 150
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.6369,
+                      "Y": 45.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 83,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 159.6369,
+                    "RightMargin": -239.6369,
+                    "TopMargin": -69.3129,
+                    "BottomMargin": 21.3129,
+                    "Tag": 1692,
+                    "ActionTag": -544009149,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 48.0
+                    },
+                    "Name": "collect_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1017795058,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "watch",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 1048289471,
+            "Size": {
+              "X": 321.0,
+              "Y": 89.0
+            },
+            "Name": "watchBtn",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist4.plist",
+        "imgpng/imgpngplist4.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

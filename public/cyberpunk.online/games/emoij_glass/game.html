@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" name="viewport"
+    content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = 0, minimal-ui" />
+
+
+
+<head>
+    <title>Emoji_Glass</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body {
+            background: #102633;
+            /*background: url("assets/img/bg.jpg") ;*/
+        }
+
+        canvas {
+            touch-action-delay: none;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+
+        #inputFake {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            border: none;
+            top: -99999px;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+
+
+    <!-- <form method="POST" action="" id="form_hidden">
+        <input type="hidden" id="input_score" name="score" value="" />
+    </form> -->
+    <script>
+        function showVideoAd() {
+            console.log("----------showVideoAd--------");
+            //try{android.showAd(1);}catch(e){}
+            try {
+                window.parent.postMessage("open", "*");
+            } catch (e) { }
+        }
+
+        function showIAd() {
+            console.log("----------showIAd--------");
+            //try{android.showAd(0);}catch(e){}
+            try {
+                window.parent.postMessage("open", "*");
+            } catch (e) { }
+        }
+    </script>
+    <script src="sdk/huhuSDK.js"></script>
+    <script src="plug/lib/mcinstant.js"></script>
+    <script src="plug/lib/matter.js"></script>
+    <script src="plug/lib/date.format.js"></script>
+    <script src="plug/lib/gamesparks-rt.js"></script>
+    <script src="plug/lib/gamesparks.js"></script>
+    <script src="plug/lib/gamesparks-functions.js"></script>
+    <script src="plug/lib/hmac-sha256.js"></script>
+    <script src="plug/lib/phaser.min.js"></script>
+    <script src="plug/lib/phaser-spine.min.js"></script>
+    <script src="plug/lib/phaser-nineslice.min.js"></script>
+    <script src="plug/Engine.js"></script>
+    <script src="plug/utils/Align.js"></script>
+    <script src="plug/utils/Animation.js"></script>
+    <script src="plug/utils/ArrayUtil.js"></script>
+    <script src="plug/utils/Callback.js"></script>
+    <script src="plug/utils/Camera.js"></script>
+    <script src="plug/utils/DateUtils.js"></script>
+    <script src="plug/utils/Depth.js"></script>
+    <script src="plug/utils/ImageUtil.js"></script>
+    <script src="plug/utils/MathUtil.js"></script>
+    <script src="plug/utils/Tick.js"></script>
+    <script src="plug/utils/ObjectUtil.js"></script>
+    <script src="plug/utils/Pool.js"></script>
+    <script src="plug/utils/Random.js"></script>
+    <script src="plug/utils/StringUtil.js"></script>
+    <script src="plug/utils/Trace.js"></script>
+    <script src="plug/utils/Utils.js"></script>
+    <script src="plug/utils/ScreenUtils.js"></script>
+    <script src="plug/physics/Matter.js"></script>
+    <script src="plug/physics/PencilPhysics.js"></script>
+    <script src="plug/physics/Shape_Matter.js"></script>
+    <script src="plug/units/IK.js"></script>
+    <script src="plug/units/Line.js"></script>
+    <script src="plug/units/Rect.js"></script>
+    <script src="plug/units/Square.js"></script>
+    <script src="plug/units/Vector3D.js"></script>
+    <script src="plug/units/SinCount.js"></script>
+    <script src="plug/core/Canvas.js"></script>
+    <script src="plug/data/Connector.js"></script>
+    <script src="plug/data/Messages.js"></script>
+    <script src="plug/data/Data.js"></script>
+    <script src="plug/data/Achievements.js"></script>
+    <script src="plug/data/Shop.js"></script>
+    <script src="plug/data/Players.js"></script>
+    <script src="plug/data/VSBoard.js"></script>
+    <script src="plug/data/Levels.js"></script>
+    <script src="plug/data/Tracking.js"></script>
+    <script src="plug/components/ComboAnim.js"></script>
+    <script src="plug/components/CountDown.js"></script>
+    <script src="plug/components/ExplosionEngine.js"></script>
+    <script src="plug/components/PauseControl.js"></script>
+    <script src="plug/components/Time.js"></script>
+    <script src="plug/components/Slider.js"></script>
+    <script src="plug/components/Scroller.js"></script>
+    <script src="plug/components/VarControl.js"></script>
+    <script src="plug/components/ShareScreenshot.js"></script>
+    <script src="plug/components/bar/PowerBar.js"></script>
+    <script src="plug/components/bar/PreloadBar.js"></script>
+    <script src="plug/components/bar/ProgressBar.js"></script>
+    <script src="plug/components/bar/PowerBar_Text.js"></script>
+    <script src="plug/components/bar/StarsBar.js"></script>
+    <script src="plug/components/cursor/Cursor.js"></script>
+    <script src="plug/components/cursor/Finger.js"></script>
+    <script src="plug/components/buttons/Button.js"></script>
+    <script src="plug/components/buttons/Button_Sprite.js"></script>
+    <script src="plug/components/buttons/Button_SpriteSimple.js">
+    </script>
+    <script src="plug/components/buttons/Button_Text.js"></script>
+    <script src="plug/components/buttons/Button_Pause.js"></script>
+    <script src="plug/components/buttons/Button_Stats.js"></script>
+    <script src="plug/components/buttons/Button_Leaderboard.js">
+    </script>
+    <script src="plug/components/buttons/Button_PVP.js"></script>
+    <script src="plug/components/buttons/Button_Friend.js"></script>
+    <script src="plug/components/buttons/Button_Achievement.js">
+    </script>
+    <script src="plug/components/buttons/Button_BottomNav.js"></script>
+    <script src="plug/components/buttons/Button_News.js"></script>
+    <script src="plug/components/buttons/Button_Pagination.js"></script>
+    <script src="plug/components/buttons/Button_Level.js"></script>
+    <script src="plug/components/buttons/Button_LevelPage.js"></script>
+    <script src="plug/components/buttons/ButtonGroup.js"></script>
+    <script src="plug/components/buttons/ButtonBoolean.js"></script>
+    <script src="plug/components/buttons/BuyButton.js"></script>
+    <script src="plug/components/buttons/ButtonSimple.js"></script>
+    <script src="plug/components/buttons/ButtonSound.js"></script>
+    <script src="plug/components/buttons/Button_SpriteText.js"></script>
+    <script src="plug/components/displayer/ScoreBig.js"></script>
+    <script src="plug/components/displayer/Stars.js"></script>
+    <script src="plug/components/displayer/Level.js"></script>
+    <script src="plug/components/displayer/Notifications.js"></script>
+    <script src="plug/components/displayer/PackageLoader.js"></script>
+    <script src="plug/components/displayer/Displayer_FortuneWheel.js">
+    </script>
+    <script src="plug/components/gallery/Gallery.js"></script>
+    <script src="plug/components/gallery/Gallery_Emotes.js"></script>
+    <script src="plug/components/gallery/Gallery_BottomNav.js"></script>
+    <script src="plug/components/tutorial/Tutorials.js"></script>
+    <script src="plug/components/popups/BlackCover.js"></script>
+    <script src="plug/components/popups/Popup.js"></script>
+    <script src="plug/components/popups/Popup_Settings.js"></script>
+    <script src="plug/components/popups/Popup_Confirm.js"></script>
+    <script src="plug/components/popups/Popup_BOT.js"></script>
+    <script src="plug/components/popups/Popup_Levels.js"></script>
+    <script src="plug/components/popups/Popup_LevelPages.js"></script>
+    <script src="plug/components/popups/Popup_Dialog.js"></script>
+    <script src="plug/components/popups/Popup_Paused.js"></script>
+    <script src="plug/components/popups/Popup_NoAds.js"></script>
+    <script src="plug/library/Ads.js"></script>
+    <script src="plug/library/AnimText.js"></script>
+    <script src="plug/library/Colors.js"></script>
+    <script src="plug/library/Particles.js"></script>
+    <script src="plug/library/SoundEngine.js"></script>
+    <script src="plug/library/SpinePool.js"></script>
+    <script src="plug/library/Sprites.js"></script>
+    <script src="plug/library/Texts.js"></script>
+    <script src="plug/library/Load.js"></script>
+    <script src="plug/fx/Cloud.js"></script>
+    <script src="plug/fx/Snow.js"></script>
+    <script src="src/Game.js"></script>
+    <script src="src/LevelLogic.js"></script>
+    <script src="src/Elements.js"></script>
+    <script src="src/elements/Base.js"></script>
+    <script src="src/elements/Fan.js"></script>
+    <script src="src/elements/Glass.js"></script>
+    <script src="src/elements/Heat.js"></script>
+    <script src="src/elements/HeatSpin.js"></script>
+    <script src="src/elements/Rotator.js"></script>
+    <script src="src/elements/Cannon.js"></script>
+    <script src="src/elements/Emoji.js"></script>
+    <script src="src/elements/Circle.js"></script>
+    <script src="src/elements/Moving.js"></script>
+    <script src="src/elements/Hint.js"></script>
+    <script src="src/popups/Popup_Splash.js"></script>
+    <script src="src/popups/Background.js"></script>
+    <script src="src/popups/Header_Top.js"></script>
+    <script src="src/popups/Popup_Settings.js"></script>
+    <script src="src/popups/Popup_Shop.js"></script>
+    <script src="src/popups/Button_Shop.js"></script>
+    <script src="src/popups/Popup_Claim.js"></script>
+    <script src="src/popups/Popup_FortuneWheel.js"></script>
+    <script src="src/popups/Popup_Over.js"></script>
+    <script src="src/popups/Popup_Howto.js"></script>
+    <script src="src/popups/Displayer_Coins.js"></script>
+    <script src="src/popups/Displayer_Clues.js"></script>
+</head>
+
+<body>
+    <script>
+        var mci = new MCInstant.MCInstant({
+            app_id: 2537077893186022
+        })
+        startEngine(1242, 2208, true)
+    </script>
+    <!-- <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="7fbac3312b3a37dc003b83fe-|49" defer=""></script> -->
+
+</body>
+<script>
+    document.addEventListener("visibilitychange", function () {
+        var string = document.visibilityState
+        console.log(string)
+        if (string === 'hidden') {
+            // 当页面由前端运行在后端时，出发此代码 
+            console.log('我被隐藏了')
+            Engine.pause(true)
+        } if (string === 'visible') {
+            // 当页面由隐藏至显示时 
+            console.log('欢迎回来')
+            Engine.unpause()
+        }
+    });
+</script>
+
+</html>

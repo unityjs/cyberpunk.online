@@ -1,0 +1,171 @@
+{
+  "ID": "1c21c7d4-c4ad-4864-90f8-121a10720d43",
+  "Version": "2.3.4",
+  "Name": "award_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 44,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 310.0,
+            "RightMargin": 310.0,
+            "TopMargin": 590.0,
+            "BottomMargin": 590.0,
+            "Tag": 45,
+            "ActionTag": -1063015173,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 76,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/success_light.png",
+              "Plist": "imgpng/imgpngplist7.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 3.0,
+              "ScaleY": 3.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.2611,
+              "Y": 0.1437
+            },
+            "LeftMargin": 266.0,
+            "RightMargin": 266.0,
+            "TopMargin": 548.0,
+            "BottomMargin": 548.0,
+            "Tag": 46,
+            "ActionTag": 165968832,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "success_light",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/big_diamond.png",
+              "Plist": "imgpng/imgpngplist7.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 370.002,
+              "Y": 625.9984
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5139,
+              "Y": 0.4891
+            },
+            "PreSize": {
+              "X": 0.0861,
+              "Y": 0.0437
+            },
+            "LeftMargin": 280.002,
+            "RightMargin": 259.998,
+            "TopMargin": 564.0016,
+            "BottomMargin": 535.9984,
+            "Tag": 47,
+            "ActionTag": -1352260272,
+            "Size": {
+              "X": 180.0,
+              "Y": 180.0
+            },
+            "Name": "diamond_3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist7.plist",
+        "imgpng/imgpngplist7.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

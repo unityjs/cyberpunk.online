@@ -1,0 +1,730 @@
+{
+  "ID": "f2a0bc74-ab63-433f-851d-eb246493f7e9",
+  "Version": "2.3.4",
+  "Name": "tournament_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "o_tournament/white_bg.jpg",
+              "Plist": "imgpng/imgpngplist6.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 90.0,
+              "ScaleY": 150.0
+            },
+            "CColor": {
+              "R": 21,
+              "G": 43,
+              "B": 82
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0139,
+              "Y": 0.0078
+            },
+            "LeftMargin": 355.0,
+            "RightMargin": 355.0,
+            "TopMargin": 635.0,
+            "BottomMargin": 635.0,
+            "Tag": 106,
+            "ActionTag": -1485332426,
+            "Size": {
+              "X": 10.0,
+              "Y": 10.0
+            },
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/scalesprite1.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 82,
+            "Scale9Height": 82,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0005,
+              "Y": 975.3605
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.762
+            },
+            "PreSize": {
+              "X": 0.9514,
+              "Y": 0.3219
+            },
+            "LeftMargin": 17.5005,
+            "RightMargin": 17.4995,
+            "TopMargin": 98.6395,
+            "BottomMargin": 769.3605,
+            "Tag": 176,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "tournament/big_show.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 341.0002,
+                  "Y": 210.817
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4978,
+                  "Y": 0.5117
+                },
+                "PreSize": {
+                  "X": 0.9343,
+                  "Y": 0.8738
+                },
+                "LeftMargin": 21.0002,
+                "RightMargin": 23.9998,
+                "TopMargin": 21.183,
+                "BottomMargin": 30.817,
+                "Tag": 175,
+                "ActionTag": -871222641,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Name": "tournament_bg_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 333691120,
+            "Size": {
+              "X": 685.0,
+              "Y": 412.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "o_tournament/t_down_bg.png",
+              "Plist": "imgpng/imgpngplist6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 26,
+            "Scale9Width": 28,
+            "Scale9Height": 27,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.9998,
+              "Y": 403.4813
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3152
+            },
+            "PreSize": {
+              "X": 0.9361,
+              "Y": 0.5625
+            },
+            "LeftMargin": 22.9998,
+            "RightMargin": 23.0002,
+            "TopMargin": 516.5187,
+            "BottomMargin": 43.4813,
+            "Tag": 518,
+            "ActionTag": 1670761642,
+            "Size": {
+              "X": 674.0,
+              "Y": 720.0
+            },
+            "Name": "Image_1_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/main_moneybg1.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 133.002,
+              "Y": 1238.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1847,
+              "Y": 0.9672
+            },
+            "PreSize": {
+              "X": 0.3306,
+              "Y": 0.0422
+            },
+            "LeftMargin": 14.002,
+            "RightMargin": 467.998,
+            "TopMargin": 15.0,
+            "BottomMargin": 1211.0,
+            "Tag": 149,
+            "ActionTag": -1944844352,
+            "Size": {
+              "X": 238.0,
+              "Y": 54.0
+            },
+            "Name": "main_moneybg1_57",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Text Label",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 124.2315,
+              "Y": 1236.9646
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1725,
+              "Y": 0.9664
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0156
+            },
+            "LeftMargin": 74.2315,
+            "RightMargin": 545.7685,
+            "TopMargin": 33.0354,
+            "BottomMargin": 1226.9646,
+            "Tag": 150,
+            "ActionTag": 1453625445,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "aw_fntb_moneylab",
+            "ctype": "TextObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 720.0,
+            "TopMargin": 1280.0,
+            "Tag": 72,
+            "ActionTag": 189889315,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "list_layer",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_close_btn.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 668.415,
+              "Y": 1226.7302
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9284,
+              "Y": 0.9584
+            },
+            "PreSize": {
+              "X": 0.1306,
+              "Y": 0.0766
+            },
+            "LeftMargin": 621.415,
+            "RightMargin": 4.585,
+            "TopMargin": 4.2698,
+            "BottomMargin": 1177.7302,
+            "Tag": 126,
+            "ActionTag": 768541862,
+            "Size": {
+              "X": 94.0,
+              "Y": 98.0
+            },
+            "Name": "back_btn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 36,
+            "LabelText": "You currently have no tournaments",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 495.7865
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3873
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.0391
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 60.0,
+            "TopMargin": 759.2135,
+            "BottomMargin": 470.7865,
+            "Tag": 540,
+            "ActionTag": -2079508660,
+            "Size": {
+              "X": 600.0,
+              "Y": 50.0
+            },
+            "Name": "no_des",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 37,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.7847,
+              "Y": 853.2864
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5025,
+              "Y": 0.6666
+            },
+            "PreSize": {
+              "X": 0.3472,
+              "Y": 0.0703
+            },
+            "LeftMargin": 236.7847,
+            "RightMargin": 233.2153,
+            "TopMargin": 381.7136,
+            "BottomMargin": 808.2864,
+            "Tag": 542,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "SCORE",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0001,
+                  "Y": 44.7632
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 248,
+                  "G": 84,
+                  "B": 1
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4974
+                },
+                "PreSize": {
+                  "X": 0.8,
+                  "Y": 0.5556
+                },
+                "LeftMargin": 25.0001,
+                "RightMargin": 24.9999,
+                "TopMargin": 20.2368,
+                "BottomMargin": 19.7632,
+                "Tag": 543,
+                "ActionTag": -1733457164,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "no_des_0",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1206798631,
+            "Size": {
+              "X": 250.0,
+              "Y": 90.0
+            },
+            "Name": "create_btn",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/max_num_tour.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.2944,
+              "Y": 1141.8175
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.249,
+              "Y": 0.892
+            },
+            "PreSize": {
+              "X": 0.3917,
+              "Y": 0.0227
+            },
+            "LeftMargin": 38.2944,
+            "RightMargin": 399.7056,
+            "TopMargin": 123.6825,
+            "BottomMargin": 1127.3175,
+            "Tag": 132,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "Receive rewards:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 109.9999,
+                  "Y": 12.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3901,
+                  "Y": 0.4138
+                },
+                "PreSize": {
+                  "X": 0.7092,
+                  "Y": 1.0345
+                },
+                "LeftMargin": 9.9999,
+                "RightMargin": 72.0001,
+                "TopMargin": 2.0,
+                "BottomMargin": -3.0,
+                "Tag": 133,
+                "ActionTag": -857179102,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 30.0
+                },
+                "Name": "Text_19",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 300064356,
+            "Size": {
+              "X": 282.0,
+              "Y": 29.0
+            },
+            "Name": "max_num_tour_20",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 25,
+            "LabelText": "3/3",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 243.9998,
+              "Y": 1139.6368
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3389,
+              "Y": 0.8903
+            },
+            "PreSize": {
+              "X": 0.1111,
+              "Y": 0.0234
+            },
+            "LeftMargin": 243.9998,
+            "RightMargin": 396.0002,
+            "TopMargin": 125.3632,
+            "BottomMargin": 1124.6368,
+            "Tag": 134,
+            "ActionTag": -2075975756,
+            "Size": {
+              "X": 80.0,
+              "Y": 30.0
+            },
+            "Name": "text_num",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist6.plist",
+        "imgpng/imgpngplist6.png",
+        "imgpng/imgpngplist9.plist",
+        "imgpng/imgpngplist9.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png",
+        "tournament/big_show.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

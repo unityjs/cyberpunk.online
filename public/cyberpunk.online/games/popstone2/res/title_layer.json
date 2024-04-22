@@ -1,0 +1,3141 @@
+{
+  "ID": "5e62bab3-d105-4d64-85ef-0bdb2e383f16",
+  "Version": "2.3.4",
+  "Name": "title_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 310.0,
+            "RightMargin": 310.0,
+            "TopMargin": 590.0,
+            "BottomMargin": 590.0,
+            "Tag": 177,
+            "ActionTag": 571906445,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 153,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/scalesprite1.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 82,
+            "Scale9Height": 82,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0005,
+              "Y": 619.3616
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4839
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.7031
+            },
+            "LeftMargin": 60.0005,
+            "RightMargin": 59.9995,
+            "TopMargin": 210.6384,
+            "BottomMargin": 169.3616,
+            "Tag": 176,
+            "ActionTag": 333691120,
+            "Size": {
+              "X": 600.0,
+              "Y": 900.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_close_btn.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 633.5112,
+              "Y": 1052.3468
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8799,
+              "Y": 0.8221
+            },
+            "PreSize": {
+              "X": 0.1306,
+              "Y": 0.0766
+            },
+            "LeftMargin": 586.5112,
+            "RightMargin": 39.4888,
+            "TopMargin": 178.6532,
+            "BottomMargin": 1003.3468,
+            "Tag": 175,
+            "ActionTag": -556711015,
+            "Size": {
+              "X": 94.0,
+              "Y": 98.0
+            },
+            "Name": "close_btn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/green_big.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 32,
+            "Scale9Width": 44,
+            "Scale9Height": 34,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.1628,
+              "Y": 1056.6116
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5016,
+              "Y": 0.8255
+            },
+            "PreSize": {
+              "X": 0.4222,
+              "Y": 0.0719
+            },
+            "LeftMargin": 209.1628,
+            "RightMargin": 206.8372,
+            "TopMargin": 177.3884,
+            "BottomMargin": 1010.6116,
+            "Tag": 175,
+            "Children": [
+              {
+                "FontSize": 46,
+                "LabelText": "Trophy",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.6967,
+                  "Y": 47.1691
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 236
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5023,
+                  "Y": 0.5127
+                },
+                "PreSize": {
+                  "X": 0.477,
+                  "Y": 0.5
+                },
+                "LeftMargin": 80.1967,
+                "RightMargin": 78.8033,
+                "TopMargin": 21.8309,
+                "BottomMargin": 24.1691,
+                "Tag": 176,
+                "ActionTag": -136953095,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1245381400,
+            "Size": {
+              "X": 304.0,
+              "Y": 92.0
+            },
+            "Name": "title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 720.0,
+            "TopMargin": 1280.0,
+            "Tag": 178,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 154.1989,
+                  "Y": 913.9196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 154.1989,
+                "RightMargin": -154.1989,
+                "TopMargin": -913.9196,
+                "BottomMargin": 913.9196,
+                "Tag": 179,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 214,
+                    "ActionTag": 1770784441,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 63,
+                    "ActionTag": 1488327277,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title1.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 6.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -106.0,
+                    "BottomMargin": -94.0,
+                    "Tag": 64,
+                    "ActionTag": 105871567,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.0006,
+                      "Y": -123.6389
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5006,
+                    "RightMargin": -55.4994,
+                    "TopMargin": 94.6389,
+                    "BottomMargin": -152.6389,
+                    "Tag": 177,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 178,
+                        "ActionTag": 115180525,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 630573205,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0001,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -64.9999,
+                    "RightMargin": -65.0001,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 69,
+                    "ActionTag": -640632778,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1089460141,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 291.709,
+                  "Y": 913.9196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 291.709,
+                "RightMargin": -291.709,
+                "TopMargin": -913.9196,
+                "BottomMargin": 913.9196,
+                "Tag": 66,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 215,
+                    "ActionTag": 631505923,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 68,
+                    "ActionTag": 24946970,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title2.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 3.3394
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -103.3394,
+                    "BottomMargin": -96.6606,
+                    "Tag": 69,
+                    "ActionTag": 917832995,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 184,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 185,
+                        "ActionTag": 402524788,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1114046912,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 71,
+                    "ActionTag": -840087307,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -357258083,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 429.2192,
+                  "Y": 913.9196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 429.2192,
+                "RightMargin": -429.2192,
+                "TopMargin": -913.9196,
+                "BottomMargin": 913.9196,
+                "Tag": 71,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 216,
+                    "ActionTag": -455026237,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 73,
+                    "ActionTag": 326368934,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title3.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.0001,
+                      "Y": 0.6792
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0001,
+                    "RightMargin": -93.9999,
+                    "TopMargin": -100.6792,
+                    "BottomMargin": -99.3208,
+                    "Tag": 74,
+                    "ActionTag": 1296571444,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 200,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 201,
+                        "ActionTag": 2047631489,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1167556193,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 72,
+                    "ActionTag": -58134065,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1561204311,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 566.7292,
+                  "Y": 913.9196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 566.7292,
+                "RightMargin": -566.7292,
+                "TopMargin": -913.9196,
+                "BottomMargin": 913.9196,
+                "Tag": 76,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 217,
+                    "ActionTag": -860541351,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 78,
+                    "ActionTag": 1186865280,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title4.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.0002,
+                      "Y": 0.6789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0002,
+                    "RightMargin": -93.9998,
+                    "TopMargin": -100.6789,
+                    "BottomMargin": -99.3211,
+                    "Tag": 79,
+                    "ActionTag": 1768805918,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 202,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 203,
+                        "ActionTag": 1995493606,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 996639872,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 73,
+                    "ActionTag": -1307959896,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1083095384,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title4",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 154.1992,
+                  "Y": 645.1968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 154.1992,
+                "RightMargin": -154.1992,
+                "TopMargin": -645.1968,
+                "BottomMargin": 645.1968,
+                "Tag": 81,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 218,
+                    "ActionTag": -521521991,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 83,
+                    "ActionTag": -1183393265,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title5.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.6792
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -100.6792,
+                    "BottomMargin": -99.3208,
+                    "Tag": 84,
+                    "ActionTag": -1830680655,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 204,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 205,
+                        "ActionTag": 1500022143,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1949137817,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 74,
+                    "ActionTag": 639899364,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -291146584,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title5",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 291.7101,
+                  "Y": 645.1968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 291.7101,
+                "RightMargin": -291.7101,
+                "TopMargin": -645.1968,
+                "BottomMargin": 645.1968,
+                "Tag": 86,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 219,
+                    "ActionTag": -1845784207,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 88,
+                    "ActionTag": 1251015564,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title6.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -0.2072
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -99.7928,
+                    "BottomMargin": -100.2072,
+                    "Tag": 89,
+                    "ActionTag": -838137224,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 206,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 207,
+                        "ActionTag": -1955943092,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 173937924,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 75,
+                    "ActionTag": -285741968,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 180141219,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title6",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 429.2195,
+                  "Y": 645.1968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 429.2195,
+                "RightMargin": -429.2195,
+                "TopMargin": -645.1968,
+                "BottomMargin": 645.1968,
+                "Tag": 91,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 220,
+                    "ActionTag": 51372378,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 93,
+                    "ActionTag": -375384670,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title7.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.0001,
+                      "Y": 1.5663
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0001,
+                    "RightMargin": -93.9999,
+                    "TopMargin": -101.5663,
+                    "BottomMargin": -98.4337,
+                    "Tag": 94,
+                    "ActionTag": 2116764969,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 208,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 209,
+                        "ActionTag": 1810243,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 656561575,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 76,
+                    "ActionTag": 233164995,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1215754426,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title7",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 566.7307,
+                  "Y": 645.1968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 566.7307,
+                "RightMargin": -566.7307,
+                "TopMargin": -645.1968,
+                "BottomMargin": 645.1968,
+                "Tag": 96,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 221,
+                    "ActionTag": -1727263423,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 98,
+                    "ActionTag": -1560852483,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title8.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -1.9805
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -98.0195,
+                    "BottomMargin": -101.9805,
+                    "Tag": 99,
+                    "ActionTag": -116063993,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 210,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 211,
+                        "ActionTag": 1777686443,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1931735257,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 77,
+                    "ActionTag": 1729874279,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -576475682,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title8",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 360.0116,
+                  "Y": 379.5509
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 360.0116,
+                "RightMargin": -360.0116,
+                "TopMargin": -379.5509,
+                "BottomMargin": 379.5509,
+                "Tag": 101,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/Activation.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": -53.5,
+                    "TopMargin": 96.4,
+                    "BottomMargin": -151.4,
+                    "Tag": 222,
+                    "ActionTag": 738411115,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 55.0
+                    },
+                    "Name": "help_btn",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/dikuang.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -61.0,
+                    "RightMargin": -61.0,
+                    "TopMargin": -61.0,
+                    "BottomMargin": -61.0,
+                    "Tag": 103,
+                    "ActionTag": -1221619495,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 122.0
+                    },
+                    "Name": "dikuang_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "title/title9.png",
+                      "Plist": "imgpng/imgpngplist8.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 6.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -94.0,
+                    "RightMargin": -94.0,
+                    "TopMargin": -106.0,
+                    "BottomMargin": -94.0,
+                    "Tag": 104,
+                    "ActionTag": 1192754589,
+                    "Size": {
+                      "X": 188.0,
+                      "Y": 200.0
+                    },
+                    "Name": "title1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public_btn/green_samll.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 21,
+                    "Scale9Height": 20,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -123.64
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -55.5,
+                    "RightMargin": -55.5,
+                    "TopMargin": 94.64,
+                    "BottomMargin": -152.64,
+                    "Tag": 212,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "public_btn/icon_green_gou.png",
+                          "Plist": "imgpng/imgpngplist3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.6219,
+                          "Y": 30.5516
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5011,
+                          "Y": 0.5268
+                        },
+                        "PreSize": {
+                          "X": 0.4595,
+                          "Y": 0.8621
+                        },
+                        "LeftMargin": 30.1219,
+                        "RightMargin": 29.8781,
+                        "TopMargin": 2.4484,
+                        "BottomMargin": 5.5516,
+                        "Tag": 213,
+                        "ActionTag": 1985327142,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 50.0
+                        },
+                        "Name": "icon_green_gou_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1083706091,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 58.0
+                    },
+                    "Name": "get_already",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "500000-800000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -79.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -65.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": -89.0,
+                    "Tag": 78,
+                    "ActionTag": 350491406,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "score_txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1048308255,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "title9",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -2030041254,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "titles",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist8.plist",
+        "imgpng/imgpngplist8.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

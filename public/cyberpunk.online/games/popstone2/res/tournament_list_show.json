@@ -1,0 +1,3050 @@
+{
+  "ID": "f95c4cf2-0747-4daa-ba88-63eb386e937a",
+  "Version": "2.3.4",
+  "Name": "tournament_list_show",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 73,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/open_show.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0002,
+              "Y": -238.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -323.9998,
+            "RightMargin": -324.0002,
+            "TopMargin": 0.0001,
+            "BottomMargin": -476.0001,
+            "Tag": 74,
+            "ActionTag": 1118164833,
+            "Size": {
+              "X": 648.0,
+              "Y": 476.0
+            },
+            "Name": "open_show",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "Ends in 5d 23:45:42",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -116.0,
+              "Y": -456.3434
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -316.0,
+            "RightMargin": -84.0,
+            "TopMargin": 431.3434,
+            "BottomMargin": -481.3434,
+            "Tag": 75,
+            "ActionTag": 1880424336,
+            "Size": {
+              "X": 400.0,
+              "Y": 50.0
+            },
+            "Name": "time_label",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "Challenge level: LEVEL 15",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -315.9271,
+              "Y": -415.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 250,
+              "B": 253
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -315.9271,
+            "RightMargin": -84.0729,
+            "TopMargin": 390.0,
+            "BottomMargin": -440.0,
+            "Tag": 74,
+            "ActionTag": 1214946738,
+            "Size": {
+              "X": 400.0,
+              "Y": 50.0
+            },
+            "Name": "lv_label",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/green_samll.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 17,
+            "Scale9Width": 21,
+            "Scale9Height": 20,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 232.9999,
+              "Y": -414.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 152.9999,
+            "RightMargin": -312.9999,
+            "TopMargin": 384.0,
+            "BottomMargin": -444.0,
+            "Tag": 195,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "300",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.9007,
+                  "Y": 29.4806
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 12,
+                  "G": 125,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6306,
+                  "Y": 0.4913
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 0.8333
+                },
+                "LeftMargin": 50.9007,
+                "RightMargin": 9.0993,
+                "TopMargin": 5.5194,
+                "BottomMargin": 4.4806,
+                "Tag": 196,
+                "ActionTag": 2028447456,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 50.0
+                },
+                "Name": "des_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "uipng/diamond.png",
+                  "Plist": "imgpng/imgpngplist3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 41.4989,
+                  "Y": 30.0167
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2594,
+                  "Y": 0.5003
+                },
+                "PreSize": {
+                  "X": 0.3875,
+                  "Y": 0.9333
+                },
+                "LeftMargin": 10.4989,
+                "RightMargin": 87.5011,
+                "TopMargin": 1.9833,
+                "BottomMargin": 2.0167,
+                "Tag": 197,
+                "ActionTag": -43615029,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 56.0
+                },
+                "Name": "diamond",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -370947279,
+            "Size": {
+              "X": 160.0,
+              "Y": 60.0
+            },
+            "Name": "btnClaim",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_samll.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 17,
+            "Scale9Width": 21,
+            "Scale9Height": 20,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 233.0,
+              "Y": -414.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 153.0,
+            "RightMargin": -313.0,
+            "TopMargin": 384.0,
+            "BottomMargin": -444.0,
+            "Tag": 76,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 34,
+                "LabelText": "PLAY",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 83.0,
+                  "Y": 28.8681
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 248,
+                  "G": 84,
+                  "B": 1
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5188,
+                  "Y": 0.4811
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.0
+                },
+                "LeftMargin": 33.0,
+                "RightMargin": 27.0,
+                "TopMargin": 1.1319,
+                "BottomMargin": -1.1319,
+                "Tag": 77,
+                "ActionTag": 223681900,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 60.0
+                },
+                "Name": "des_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/watch.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 42.0083,
+                  "Y": 30.5041
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2626,
+                  "Y": 0.5084
+                },
+                "PreSize": {
+                  "X": 0.4125,
+                  "Y": 0.8
+                },
+                "LeftMargin": 9.0083,
+                "RightMargin": 84.9917,
+                "TopMargin": 5.4959,
+                "BottomMargin": 6.5041,
+                "Tag": 76,
+                "ActionTag": 1964725674,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 48.0
+                },
+                "Name": "watch_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 28,
+                "LabelText": "watch",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/FZY4JW_0.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 106.0002,
+                  "Y": 28.9726
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 248,
+                  "G": 84,
+                  "B": 1
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6625,
+                  "Y": 0.4829
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.0
+                },
+                "LeftMargin": 56.0002,
+                "RightMargin": 3.9998,
+                "TopMargin": 1.0274,
+                "BottomMargin": -1.0274,
+                "Tag": 77,
+                "ActionTag": -31078611,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 60.0
+                },
+                "Name": "watch_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -999502373,
+            "Size": {
+              "X": 160.0,
+              "Y": 60.0
+            },
+            "Name": "btnPlay",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -315.1516,
+              "Y": -472.69
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -315.1516,
+            "RightMargin": 315.1516,
+            "TopMargin": 472.69,
+            "BottomMargin": -472.69,
+            "Tag": 80,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.5518,
+                  "Y": 389.7925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5518,
+                "RightMargin": -32.5518,
+                "TopMargin": -389.7925,
+                "BottomMargin": 389.7925,
+                "Tag": 90,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg0.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 6,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 95,
+                    "ActionTag": -552526013,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg1.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 8,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 94,
+                    "ActionTag": 1202153060,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "bg_blue",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "4",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.5836,
+                      "Y": -0.3936
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.5836,
+                    "RightMargin": -60.5836,
+                    "TopMargin": -16.6064,
+                    "BottomMargin": -17.3936,
+                    "Tag": 93,
+                    "ActionTag": 535671497,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 34.0
+                    },
+                    "Name": "rank_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "name",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 279.3636,
+                      "Y": 1.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 154.3636,
+                    "RightMargin": -404.3636,
+                    "TopMargin": -26.3129,
+                    "BottomMargin": -23.6871,
+                    "Tag": 92,
+                    "ActionTag": 207221549,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 50.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "1009",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.3565,
+                      "Y": -1.6878
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 192,
+                      "G": 60,
+                      "B": 220
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.3565,
+                    "RightMargin": -410.3565,
+                    "TopMargin": -23.3122,
+                    "BottomMargin": -26.6878,
+                    "Tag": 91,
+                    "ActionTag": 1399972368,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 50.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 114.7038,
+                      "Y": 0.1865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 114.7038,
+                    "RightMargin": -114.7038,
+                    "TopMargin": -0.1865,
+                    "BottomMargin": 0.1865,
+                    "Tag": 96,
+                    "ActionTag": -1321318330,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "head_node",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "uipng/diamond.png",
+                      "Plist": "imgpng/imgpngplist3.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 482.2004,
+                      "Y": -1.308
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 451.2004,
+                    "RightMargin": -513.2004,
+                    "TopMargin": -26.692,
+                    "BottomMargin": -29.308,
+                    "Tag": 114,
+                    "ActionTag": -262035600,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 56.0
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "+300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.821,
+                      "Y": -0.8037
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 69,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 507.821,
+                    "RightMargin": -587.821,
+                    "TopMargin": -24.1963,
+                    "BottomMargin": -25.8037,
+                    "Tag": 115,
+                    "ActionTag": 690125782,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 50.0
+                    },
+                    "Name": "diamond_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1939058970,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "rank0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.5518,
+                  "Y": 323.2399
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5518,
+                "RightMargin": -32.5518,
+                "TopMargin": -323.2399,
+                "BottomMargin": 323.2399,
+                "Tag": 116,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg0.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 6,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 117,
+                    "ActionTag": -252593161,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg1.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 8,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 118,
+                    "ActionTag": -1173977946,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "bg_blue",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "4",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.5836,
+                      "Y": -0.3936
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.5836,
+                    "RightMargin": -60.5836,
+                    "TopMargin": -16.6064,
+                    "BottomMargin": -17.3936,
+                    "Tag": 119,
+                    "ActionTag": 1097078518,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 34.0
+                    },
+                    "Name": "rank_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "name",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 279.3636,
+                      "Y": 1.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 154.3636,
+                    "RightMargin": -404.3636,
+                    "TopMargin": -26.3129,
+                    "BottomMargin": -23.6871,
+                    "Tag": 120,
+                    "ActionTag": -1194692488,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 50.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "1009",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.3565,
+                      "Y": -1.6877
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 192,
+                      "G": 60,
+                      "B": 220
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.3565,
+                    "RightMargin": -410.3565,
+                    "TopMargin": -23.3123,
+                    "BottomMargin": -26.6877,
+                    "Tag": 121,
+                    "ActionTag": 893561637,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 50.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 114.7038,
+                      "Y": 0.1865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 114.7038,
+                    "RightMargin": -114.7038,
+                    "TopMargin": -0.1865,
+                    "BottomMargin": 0.1865,
+                    "Tag": 122,
+                    "ActionTag": 1269803913,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "head_node",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "uipng/diamond.png",
+                      "Plist": "imgpng/imgpngplist3.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 482.2004,
+                      "Y": -1.308
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 451.2004,
+                    "RightMargin": -513.2004,
+                    "TopMargin": -26.692,
+                    "BottomMargin": -29.308,
+                    "Tag": 123,
+                    "ActionTag": 365794085,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 56.0
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "+300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.821,
+                      "Y": -0.8037
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 69,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 507.821,
+                    "RightMargin": -587.821,
+                    "TopMargin": -24.1963,
+                    "BottomMargin": -25.8037,
+                    "Tag": 124,
+                    "ActionTag": 742983271,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 50.0
+                    },
+                    "Name": "diamond_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1033920791,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "rank1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.5518,
+                  "Y": 256.6873
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5518,
+                "RightMargin": -32.5518,
+                "TopMargin": -256.6873,
+                "BottomMargin": 256.6873,
+                "Tag": 125,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg0.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 6,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 126,
+                    "ActionTag": 1824888492,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg1.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 8,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 127,
+                    "ActionTag": -1554939734,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "bg_blue",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "4",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.5836,
+                      "Y": -0.3936
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.5836,
+                    "RightMargin": -60.5836,
+                    "TopMargin": -16.6064,
+                    "BottomMargin": -17.3936,
+                    "Tag": 128,
+                    "ActionTag": -1221990065,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 34.0
+                    },
+                    "Name": "rank_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "name",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 279.3636,
+                      "Y": 1.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 154.3636,
+                    "RightMargin": -404.3636,
+                    "TopMargin": -26.3129,
+                    "BottomMargin": -23.6871,
+                    "Tag": 129,
+                    "ActionTag": 231061710,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 50.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "1009",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.3565,
+                      "Y": -1.6877
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 192,
+                      "G": 60,
+                      "B": 220
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.3565,
+                    "RightMargin": -410.3565,
+                    "TopMargin": -23.3123,
+                    "BottomMargin": -26.6877,
+                    "Tag": 130,
+                    "ActionTag": -123513931,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 50.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 114.7038,
+                      "Y": 0.1865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 114.7038,
+                    "RightMargin": -114.7038,
+                    "TopMargin": -0.1865,
+                    "BottomMargin": 0.1865,
+                    "Tag": 131,
+                    "ActionTag": 1475743087,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "head_node",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "uipng/diamond.png",
+                      "Plist": "imgpng/imgpngplist3.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 482.2004,
+                      "Y": -1.308
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 451.2004,
+                    "RightMargin": -513.2004,
+                    "TopMargin": -26.692,
+                    "BottomMargin": -29.308,
+                    "Tag": 132,
+                    "ActionTag": 1218367590,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 56.0
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "+300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.821,
+                      "Y": -0.8037
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 69,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 507.821,
+                    "RightMargin": -587.821,
+                    "TopMargin": -24.1963,
+                    "BottomMargin": -25.8037,
+                    "Tag": 133,
+                    "ActionTag": 107119180,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 50.0
+                    },
+                    "Name": "diamond_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1588825775,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "rank2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.5518,
+                  "Y": 190.1347
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5518,
+                "RightMargin": -32.5518,
+                "TopMargin": -190.1347,
+                "BottomMargin": 190.1347,
+                "Tag": 134,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg0.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 6,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 135,
+                    "ActionTag": 1216934049,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg1.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 8,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 136,
+                    "ActionTag": 848425181,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "bg_blue",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "4",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.5836,
+                      "Y": -0.3936
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.5836,
+                    "RightMargin": -60.5836,
+                    "TopMargin": -16.6064,
+                    "BottomMargin": -17.3936,
+                    "Tag": 137,
+                    "ActionTag": -1532444737,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 34.0
+                    },
+                    "Name": "rank_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "name",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 279.3636,
+                      "Y": 1.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 154.3636,
+                    "RightMargin": -404.3636,
+                    "TopMargin": -26.3129,
+                    "BottomMargin": -23.6871,
+                    "Tag": 138,
+                    "ActionTag": -1460583062,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 50.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "1009",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.3565,
+                      "Y": -1.6878
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 192,
+                      "G": 60,
+                      "B": 220
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.3565,
+                    "RightMargin": -410.3565,
+                    "TopMargin": -23.3122,
+                    "BottomMargin": -26.6878,
+                    "Tag": 139,
+                    "ActionTag": -1337581767,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 50.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 114.7038,
+                      "Y": 0.1865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 114.7038,
+                    "RightMargin": -114.7038,
+                    "TopMargin": -0.1865,
+                    "BottomMargin": 0.1865,
+                    "Tag": 140,
+                    "ActionTag": 57642998,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "head_node",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "uipng/diamond.png",
+                      "Plist": "imgpng/imgpngplist3.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 482.2004,
+                      "Y": -1.308
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 451.2004,
+                    "RightMargin": -513.2004,
+                    "TopMargin": -26.692,
+                    "BottomMargin": -29.308,
+                    "Tag": 141,
+                    "ActionTag": 711695644,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 56.0
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "+300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.821,
+                      "Y": -0.8037
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 69,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 507.821,
+                    "RightMargin": -587.821,
+                    "TopMargin": -24.1963,
+                    "BottomMargin": -25.8037,
+                    "Tag": 142,
+                    "ActionTag": 1018588814,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 50.0
+                    },
+                    "Name": "diamond_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1622378553,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "rank3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.5518,
+                  "Y": 123.5821
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5518,
+                "RightMargin": -32.5518,
+                "TopMargin": -123.5821,
+                "BottomMargin": 123.5821,
+                "Tag": 143,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg0.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 6,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 144,
+                    "ActionTag": -1845175901,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tournament/award_bg1.png",
+                      "Plist": "imgpng/scaleimglist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 8,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4316,
+                      "Y": 0.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -33.5684,
+                    "RightMargin": -596.4316,
+                    "TopMargin": -30.5147,
+                    "BottomMargin": -29.4853,
+                    "Tag": 145,
+                    "ActionTag": 1388233507,
+                    "Size": {
+                      "X": 630.0,
+                      "Y": 60.0
+                    },
+                    "Name": "bg_blue",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "4",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.5836,
+                      "Y": -0.3936
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.5836,
+                    "RightMargin": -60.5836,
+                    "TopMargin": -16.6064,
+                    "BottomMargin": -17.3936,
+                    "Tag": 146,
+                    "ActionTag": -616965056,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 34.0
+                    },
+                    "Name": "rank_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "name",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 279.3636,
+                      "Y": 1.3129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 154.3636,
+                    "RightMargin": -404.3636,
+                    "TopMargin": -26.3129,
+                    "BottomMargin": -23.6871,
+                    "Tag": 147,
+                    "ActionTag": 67145212,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 50.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "1009",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.3565,
+                      "Y": -1.6877
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 192,
+                      "G": 60,
+                      "B": 220
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.3565,
+                    "RightMargin": -410.3565,
+                    "TopMargin": -23.3123,
+                    "BottomMargin": -26.6877,
+                    "Tag": 148,
+                    "ActionTag": -1501866898,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 50.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 114.7038,
+                      "Y": 0.1865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 114.7038,
+                    "RightMargin": -114.7038,
+                    "TopMargin": -0.1865,
+                    "BottomMargin": 0.1865,
+                    "Tag": 149,
+                    "ActionTag": -2115624020,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "head_node",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "uipng/diamond.png",
+                      "Plist": "imgpng/imgpngplist3.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 482.2004,
+                      "Y": -1.308
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 451.2004,
+                    "RightMargin": -513.2004,
+                    "TopMargin": -26.692,
+                    "BottomMargin": -29.308,
+                    "Tag": 150,
+                    "ActionTag": -1577335069,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 56.0
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "+300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/FZY4JW_0.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.821,
+                      "Y": -0.8037
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 246,
+                      "G": 69,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 507.821,
+                    "RightMargin": -587.821,
+                    "TopMargin": -24.1963,
+                    "BottomMargin": -25.8037,
+                    "Tag": 151,
+                    "ActionTag": 559072477,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 50.0
+                    },
+                    "Name": "diamond_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1691867605,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "rank4",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 1214727049,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "rank",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/rank_reward.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.7082,
+              "Y": -27.105
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 178.2082,
+            "RightMargin": -303.2082,
+            "TopMargin": -7.395,
+            "BottomMargin": -61.605,
+            "Tag": 128,
+            "ActionTag": -1401045717,
+            "Size": {
+              "X": 125.0,
+              "Y": 69.0
+            },
+            "Name": "rank_reward_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/NAME_tour.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -101.0653,
+              "Y": -29.9182
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -147.0653,
+            "RightMargin": 55.0653,
+            "TopMargin": 4.9182,
+            "BottomMargin": -54.9182,
+            "Tag": 129,
+            "ActionTag": -1856958397,
+            "Size": {
+              "X": 92.0,
+              "Y": 50.0
+            },
+            "Name": "NAME_tour_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/RANK_tour.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -254.0653,
+              "Y": -29.4182
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -298.0653,
+            "RightMargin": 210.0653,
+            "TopMargin": 4.9182,
+            "BottomMargin": -53.9182,
+            "Tag": 130,
+            "ActionTag": 1861083394,
+            "Size": {
+              "X": 88.0,
+              "Y": 49.0
+            },
+            "Name": "RANK_tour_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/SCORE_tour.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 97.0734,
+              "Y": -29.9182
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 48.5734,
+            "RightMargin": -145.5734,
+            "TopMargin": 4.9182,
+            "BottomMargin": -54.9182,
+            "Tag": 131,
+            "ActionTag": 1855484683,
+            "Size": {
+              "X": 97.0,
+              "Y": 50.0
+            },
+            "Name": "SCORE_tour_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 24,
+            "LabelText": "Remaining times: 4/4",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 211.4369,
+              "Y": -460.7305
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 86.4369,
+            "RightMargin": -336.4369,
+            "TopMargin": 435.7305,
+            "BottomMargin": -485.7305,
+            "Tag": 75,
+            "ActionTag": 569413358,
+            "Size": {
+              "X": 250.0,
+              "Y": 50.0
+            },
+            "Name": "time_label_0",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist4.plist",
+        "imgpng/imgpngplist4.png",
+        "imgpng/imgpngplist9.plist",
+        "imgpng/imgpngplist9.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

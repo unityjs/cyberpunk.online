@@ -1,0 +1,291 @@
+{
+  "ID": "0a8f50f5-b224-4eea-bdc0-40d499ba197f",
+  "Version": "2.3.4",
+  "Name": "tournament_list",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 153,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/zhedie_show.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 28,
+            "Scale9Width": 27,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -324.0,
+            "RightMargin": -324.0,
+            "TopMargin": 0.5,
+            "BottomMargin": -99.5,
+            "Tag": 154,
+            "ActionTag": 1427525283,
+            "Size": {
+              "X": 648.0,
+              "Y": 99.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "Qualifying for",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/FZY4JW_0.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -301.2087,
+              "Y": -49.6177
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 73,
+              "G": 130,
+              "B": 238
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -301.2087,
+            "RightMargin": -198.7913,
+            "TopMargin": 24.6177,
+            "BottomMargin": -74.6177,
+            "Tag": 155,
+            "ActionTag": -1131113788,
+            "Size": {
+              "X": 500.0,
+              "Y": 50.0
+            },
+            "Name": "list_title",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 30,
+            "LabelText": "玩家",
+            "FontResource": {
+              "Type": "Default",
+              "Path": "",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -109.8087,
+              "Y": -49.6177
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "G": 201,
+              "B": 72
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -109.8087,
+            "RightMargin": -190.1913,
+            "TopMargin": 24.6177,
+            "BottomMargin": -74.6177,
+            "Tag": 156,
+            "ActionTag": -239179218,
+            "Size": {
+              "X": 300.0,
+              "Y": 50.0
+            },
+            "Name": "player_name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/downarrow.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 274.1573,
+              "Y": -49.218
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 246.6573,
+            "RightMargin": -301.6573,
+            "TopMargin": 22.718,
+            "BottomMargin": -75.718,
+            "Tag": 157,
+            "ActionTag": 1209295949,
+            "Size": {
+              "X": 55.0,
+              "Y": 53.0
+            },
+            "Name": "downarrow_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "tournament/zhedie_show.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 272.2439,
+              "Y": -49.2713
+            },
+            "Scale": {
+              "ScaleX": 1.1045,
+              "ScaleY": 0.9064
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 233.7439,
+            "RightMargin": -310.7439,
+            "TopMargin": 6.2713,
+            "BottomMargin": -92.2713,
+            "Tag": 83,
+            "ActionTag": 1953352247,
+            "Size": {
+              "X": 77.0,
+              "Y": 86.0
+            },
+            "Alpha": 0,
+            "Name": "click_open",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/FZY4JW_0.ttf",
+        "imgpng/imgpngplist9.plist",
+        "imgpng/imgpngplist9.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,20 @@
+{"frames": {
+
+"Splash_shop_button":
+{
+	"frame": {"x":1,"y":1,"w":618,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":618,"h":180},
+	"sourceSize": {"w":618,"h":180}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "images-6.png",
+	"format": "RGBA8888",
+	"size": {"w":620,"h":182},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:274637044b2ec4b79d4e4834544ddb66:9b7ae6b21261e249b202a09ebaeac371:55d364fc76104091a3735d7a53a95a81$"
+}
+}

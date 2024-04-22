@@ -1,0 +1,816 @@
+{
+  "ID": "6cb2736e-095f-4c95-908e-877bd4f6d67b",
+  "Version": "2.3.4",
+  "Name": "sd_add_ball",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uipng/layer_mask.png",
+              "Plist": "imgpng/imgpngplist3.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 7.2,
+              "ScaleY": 12.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.0781
+            },
+            "LeftMargin": 310.0,
+            "RightMargin": 310.0,
+            "TopMargin": 590.0,
+            "BottomMargin": 590.0,
+            "Tag": 177,
+            "ActionTag": 571906445,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Alpha": 153,
+            "Name": "layer_mask",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "other/scalesprite1.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 79,
+            "Scale9OriginY": 79,
+            "Scale9Width": 82,
+            "Scale9Height": 82,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 344.0104,
+              "Y": 632.3602
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4778,
+              "Y": 0.494
+            },
+            "PreSize": {
+              "X": 0.7778,
+              "Y": 0.5398
+            },
+            "LeftMargin": 64.0104,
+            "RightMargin": 95.9896,
+            "TopMargin": 302.1398,
+            "BottomMargin": 286.8602,
+            "Tag": 176,
+            "ActionTag": 333691120,
+            "Size": {
+              "X": 560.0,
+              "Y": 691.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "sd_snow/sd_snow_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 358.494,
+              "Y": 645.5723
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4979,
+              "Y": 0.5044
+            },
+            "PreSize": {
+              "X": 0.7333,
+              "Y": 0.5102
+            },
+            "LeftMargin": 94.494,
+            "RightMargin": 97.506,
+            "TopMargin": 307.9277,
+            "BottomMargin": 319.0723,
+            "Tag": 138,
+            "ActionTag": 621123444,
+            "Size": {
+              "X": 528.0,
+              "Y": 653.0
+            },
+            "Name": "sd_snow_bg_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/grass.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 632.5017,
+              "Y": 645.8926
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8785,
+              "Y": 0.5046
+            },
+            "PreSize": {
+              "X": 0.1139,
+              "Y": 0.5703
+            },
+            "LeftMargin": 591.5017,
+            "RightMargin": 46.4983,
+            "TopMargin": 269.1074,
+            "BottomMargin": 280.8926,
+            "Tag": 141,
+            "ActionTag": 1924403880,
+            "Size": {
+              "X": 82.0,
+              "Y": 730.0
+            },
+            "Name": "grass_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/grass.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 81.3275,
+              "Y": 661.3043
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.113,
+              "Y": 0.5166
+            },
+            "PreSize": {
+              "X": 0.1139,
+              "Y": 0.5703
+            },
+            "LeftMargin": 40.3275,
+            "RightMargin": 597.6725,
+            "TopMargin": 253.6957,
+            "BottomMargin": 296.3043,
+            "Tag": 140,
+            "ActionTag": -307724060,
+            "Size": {
+              "X": 82.0,
+              "Y": 730.0
+            },
+            "Name": "grass_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/sd_snow_top.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 340.9164,
+              "Y": 974.1706
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4735,
+              "Y": 0.7611
+            },
+            "PreSize": {
+              "X": 0.9486,
+              "Y": 0.1148
+            },
+            "LeftMargin": -0.5836,
+            "RightMargin": 37.5836,
+            "TopMargin": 232.3293,
+            "BottomMargin": 900.6706,
+            "Tag": 120,
+            "ActionTag": 1097591631,
+            "Size": {
+              "X": 683.0,
+              "Y": 147.0
+            },
+            "Name": "sd_snow_top_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/sd_blue.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 32,
+            "Scale9Width": 357,
+            "Scale9Height": 86,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 333.2644,
+              "Y": 1021.9477
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4629,
+              "Y": 0.7984
+            },
+            "PreSize": {
+              "X": 0.6125,
+              "Y": 0.1172
+            },
+            "LeftMargin": 112.7644,
+            "RightMargin": 166.2356,
+            "TopMargin": 183.0522,
+            "BottomMargin": 946.9477,
+            "Tag": 113,
+            "Children": [
+              {
+                "FontSize": 36,
+                "LabelText": "Free Snowball",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 213.697,
+                  "Y": 43.1697
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4846,
+                  "Y": 0.2878
+                },
+                "PreSize": {
+                  "X": 0.542,
+                  "Y": 0.24
+                },
+                "LeftMargin": 94.197,
+                "RightMargin": 107.803,
+                "TopMargin": 88.8303,
+                "BottomMargin": 25.1697,
+                "Tag": 114,
+                "ActionTag": 433223299,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 36.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -233926883,
+            "Size": {
+              "X": 441.0,
+              "Y": 150.0
+            },
+            "Name": "title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/sd_close.png",
+              "Plist": "imgpng/imgpngplist9.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 659.4129,
+              "Y": 989.725
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9159,
+              "Y": 0.7732
+            },
+            "PreSize": {
+              "X": 0.1403,
+              "Y": 0.0781
+            },
+            "LeftMargin": 608.9129,
+            "RightMargin": 10.0871,
+            "TopMargin": 240.275,
+            "BottomMargin": 939.725,
+            "Tag": 126,
+            "ActionTag": 768541862,
+            "Size": {
+              "X": 101.0,
+              "Y": 100.0
+            },
+            "Name": "back_btn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd/sd_di.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 362.2714,
+              "Y": 344.8461
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5032,
+              "Y": 0.2694
+            },
+            "PreSize": {
+              "X": 1.0514,
+              "Y": 0.2094
+            },
+            "LeftMargin": -16.2286,
+            "RightMargin": -20.7714,
+            "TopMargin": 801.1539,
+            "BottomMargin": 210.8461,
+            "Tag": 121,
+            "ActionTag": 418973973,
+            "Size": {
+              "X": 757.0,
+              "Y": 268.0
+            },
+            "Name": "sd_di_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "sd_snow/sd_addsnow_line.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 406.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3172
+            },
+            "PreSize": {
+              "X": 0.7153,
+              "Y": 0.0656
+            },
+            "LeftMargin": 102.5,
+            "RightMargin": 102.5,
+            "TopMargin": 832.0,
+            "BottomMargin": 364.0,
+            "Tag": 137,
+            "ActionTag": -185379218,
+            "Size": {
+              "X": 515.0,
+              "Y": 84.0
+            },
+            "Name": "sd_addsnow_line_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 26,
+            "LabelText": "Watch the advertisement and\nget 2 snowballs for free!",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/hytjtj.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 57,
+              "G": 25,
+              "B": 65
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 362.7957,
+              "Y": 406.8307
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5039,
+              "Y": 0.3178
+            },
+            "PreSize": {
+              "X": 0.5556,
+              "Y": 0.0781
+            },
+            "LeftMargin": 162.7957,
+            "RightMargin": 157.2043,
+            "TopMargin": 823.1693,
+            "BottomMargin": 356.8307,
+            "Tag": 139,
+            "ActionTag": 1479313609,
+            "Size": {
+              "X": 400.0,
+              "Y": 100.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sd_snow/sd_snowball.png",
+              "Plist": "imgpng/imgpngplist10.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 365.6644,
+              "Y": 606.3989
+            },
+            "Scale": {
+              "ScaleX": 1.25,
+              "ScaleY": 1.25
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5079,
+              "Y": 0.4737
+            },
+            "PreSize": {
+              "X": 0.1292,
+              "Y": 0.0727
+            },
+            "LeftMargin": 319.1644,
+            "RightMargin": 307.8356,
+            "TopMargin": 627.1011,
+            "BottomMargin": 559.8989,
+            "Tag": 140,
+            "ActionTag": 1627535331,
+            "Size": {
+              "X": 93.0,
+              "Y": 93.0
+            },
+            "Name": "sd_snowball_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public_btn/yellow_large.png",
+              "Plist": "imgpng/scaleimglist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 33,
+            "Scale9Width": 33,
+            "Scale9Height": 37,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 303.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2367
+            },
+            "PreSize": {
+              "X": 0.4139,
+              "Y": 0.0766
+            },
+            "LeftMargin": 211.0,
+            "RightMargin": 211.0,
+            "TopMargin": 928.0,
+            "BottomMargin": 254.0,
+            "Tag": 173,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "watchad/watch.png",
+                  "Plist": "imgpng/imgpngplist4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 83.3473,
+                  "Y": 53.5121
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2797,
+                  "Y": 0.546
+                },
+                "PreSize": {
+                  "X": 0.2215,
+                  "Y": 0.4898
+                },
+                "LeftMargin": 50.3473,
+                "RightMargin": 181.6527,
+                "TopMargin": 20.4879,
+                "BottomMargin": 29.5121,
+                "Tag": 174,
+                "ActionTag": 1610386569,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 48.0
+                },
+                "Name": "type_ad1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 34,
+                "LabelText": "WATCH",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/hytjtj.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 249,
+                  "G": 188,
+                  "B": 150
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 190.7482,
+                  "Y": 51.2792
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 246,
+                  "G": 83,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6401,
+                  "Y": 0.5233
+                },
+                "PreSize": {
+                  "X": 0.6711,
+                  "Y": 0.6122
+                },
+                "LeftMargin": 90.7482,
+                "RightMargin": 7.2518,
+                "TopMargin": 16.7208,
+                "BottomMargin": 21.2792,
+                "Tag": 175,
+                "ActionTag": -769847585,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Name": "Sprite_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -759554137,
+            "Size": {
+              "X": 298.0,
+              "Y": 98.0
+            },
+            "Name": "btnFree",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/hytjtj.ttf",
+        "imgpng/imgpngplist10.plist",
+        "imgpng/imgpngplist10.png",
+        "imgpng/imgpngplist3.plist",
+        "imgpng/imgpngplist3.png",
+        "imgpng/imgpngplist4.plist",
+        "imgpng/imgpngplist4.png",
+        "imgpng/imgpngplist9.plist",
+        "imgpng/imgpngplist9.png",
+        "imgpng/scaleimglist.plist",
+        "imgpng/scaleimglist.png",
+        "sd_snow/sd_addsnow_line.png",
+        "sd_snow/sd_snow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
