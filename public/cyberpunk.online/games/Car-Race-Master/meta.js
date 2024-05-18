@@ -1,0 +1,3 @@
+
+  window.global__meta = {"key":"Car-Race-Master","name":"Car Race Master","desc":"This is a very casual racing game where you only have three lives per round! Can't increase! Every time your car runs off the track or hits someone else's car or obstacle, it will deduct a health point!\n\nThe longer you live, the more coins you can get in exchange for rewards! Come on, racers!","icon":"https://hippofunnygame.com/games/Car-Race-Master/icon.png"}
+  
